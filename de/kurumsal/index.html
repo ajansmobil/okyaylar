@@ -33,28 +33,28 @@
     
   </head>
   <body>
-    <div id="header"><div class="oaedo">
-  <div class="oaedotitle">
-    <div class="oaedotitlebody">
-      <div class="oaedotitlebodytitle">
+    <div id="header"><div class="vbtui">
+  <div class="vbtuititle">
+    <div class="vbtuititlebody">
+      <div class="vbtuititlebodytitle">
         Okyaylar Gıda Web Sitemize Hoşgeldiniz
       </div>
-      <div class="oaedotitlebodylang">
+      <div class="vbtuititlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="oaedobody">
-    <a href="/de"><img src="/img/logo.png" class="oaedobodylogo" /></a>
+  <div class="vbtuibody">
+    <a href="/de"><img src="/img/logo.png" class="vbtuibodylogo" /></a>
   </div>
-  <div class="oaedomenubody">
-    <div class="oaedomenu">
-      <div class="oaedomenulistbody">
-        <div class="oaedomenulist">
+  <div class="vbtuimenubody">
+    <div class="vbtuimenu">
+      <div class="vbtuimenulistbody">
+        <div class="vbtuimenulist">
           <ul>
-            <a href="/de/">Startseite </a><a class="oaedomenulistactive" href="/de/kurumsal/">Institutionell</a><a href="/de/urunlerimiz/">Unsere Produkte</a><a href="/de/belgelerimiz/">Unsere Dokumente</a><a href="/de/talep-formu/">Anforderungsformular</a><a href="/de/iletisim/">Kommunikation</a>
+            <a href="/de/">Startseite </a><a class="vbtuimenulistactive" href="/de/kurumsal/">Institutionell</a><a href="/de/urunlerimiz/">Unsere Produkte</a><a href="/de/belgelerimiz/">Unsere Dokumente</a><a href="/de/talep-formu/">Anforderungsformular</a><a href="/de/iletisim/">Kommunikation</a>
           </ul>
         </div>
       </div>
@@ -62,7 +62,7 @@
   </div>
 </div>
 <style>
-  .oaedo {
+  .vbtui {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
     justify-content: center;
   }
 
-  .oaedotitle {
+  .vbtuititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -78,7 +78,7 @@
     justify-content: center;
   }
 
-  .oaedotitlebody {
+  .vbtuititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -86,24 +86,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .oaedotitlebodytitle {
+  .vbtuititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .oaedotitlebodylang {
+  .vbtuititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .oaedotitlebodylang ul {
+  .vbtuititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .oaedobody {
+  .vbtuibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -111,14 +111,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .oaedomenu {
+  .vbtuimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .oaedomenulist {
+  .vbtuimenulist {
     width: calc(100% - 20px);
     background-color: #007334;
     padding: 10px;
@@ -126,7 +126,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .oaedomenubody {
+  .vbtuimenubody {
     width: 100%;
     background-color: #007334;
     display: flex;
@@ -134,7 +134,7 @@
     justify-content: center;
   }
 
-  .oaedomenulist ul {
+  .vbtuimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -144,7 +144,7 @@
     overflow-x: auto;
   }
 
-  .oaedomenulist ul a {
+  .vbtuimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -156,40 +156,40 @@
     white-space: nowrap;
   }
 
-  .oaedomenulist ul a:hover {
+  .vbtuimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .oaedomenulistactive {
+  .vbtuimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .oaedomenulistbody {
+  .vbtuimenulistbody {
     width: 100%;
   }
 
-  .oaedobodylogo {
+  .vbtuibodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
   @media screen and (max-width: 1024px) {
-    .oaedomenu {
+    .vbtuimenu {
       overflow-x: auto;
     }
 
-    .oaedomenulist ul {
+    .vbtuimenulist ul {
       flex-direction: row;
     }
 
-    .oaedobodylogo {
+    .vbtuibodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -197,25 +197,25 @@
   }
 
   @media screen and (max-width: 768px) {
-    .oaedomenulist ul a {
+    .vbtuimenulist ul a {
       font-size: 14px;
     }
   }
 </style>
 </div>
-    <div id="content"><div class="z1tjc-title f36">
+    <div id="content"><div class="mc6bc-title f36">
   <span>Institutionell</span>
 </div>
-<div class="z1tjc">
-  <div class="z1tjc-menu"><a class="active"  href="/de/kurumsal" >Institutionell</a><a   href="/de/hakkimizda" >Über uns</a><a   href="/de/misyon" >Mission</a><a   href="/de/vizyon" >Vision</a><a   href="/de/kalitepolitikamiz" >Unsere Qualitätspolitik</a><a   href="/de/gizlilikpolitikasi" >Datenschutzrichtlinie</a><a   href="/de/kisiselveriler" >Persönliche Daten</a><a   href="/de/kullanicahaklari" >Benutzerrechte</a><a   href="/de/yasaluyari" >Rechtswarnung</a></div>
-  <div class="z1tjc-desc">
-    <div class="z1tjc-desc-body">
-      <div class="z1tjc-img">
+<div class="mc6bc">
+  <div class="mc6bc-menu"><a class="active"  href="/de/kurumsal" >Institutionell</a><a   href="/de/hakkimizda" >Über uns</a><a   href="/de/misyon" >Mission</a><a   href="/de/vizyon" >Vision</a><a   href="/de/kalitepolitikamiz" >Unsere Qualitätspolitik</a><a   href="/de/gizlilikpolitikasi" >Datenschutzrichtlinie</a><a   href="/de/kisiselveriler" >Persönliche Daten</a><a   href="/de/kullanicahaklari" >Benutzerrechte</a><a   href="/de/yasaluyari" >Rechtswarnung</a></div>
+  <div class="mc6bc-desc">
+    <div class="mc6bc-desc-body">
+      <div class="mc6bc-img">
         <img src="" width="100%" />
       </div>
       
     </div>
-    <div class="z1tjc-body"><h1><h2 style="font-size: 24px;">Über uns</h2></h1>
+    <div class="mc6bc-body"><h1><h2 style="font-size: 24px;">Über uns</h2></h1>
 <p>    <p style=" font-size: 16px;"></p>
 <p>        Wir sind ein Unternehmen, das darauf abzielt, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit stets in den Vordergrund stellen. Mit unseren innovativen und kreativen Ansätzen arbeiten wir daran, maximale Effizienz und Effektivität in jedem Projekt sicherzustellen. Unser Team besteht aus professionellen Experten in ihren Bereichen und wird kontinuierlich durch Entwicklungs- und Trainingsmöglichkeiten unterstützt. Auf diese Weise erfüllen wir sowohl Kundenanforderungen bestmöglich als auch verfolgen die neuesten Entwicklungen in der Branche, um Lösungen anzubieten, die unseren Kunden einen Mehrwert bieten.</p>
 <p>    </p></p>
@@ -232,14 +232,14 @@
     justify-content: start;
   }
 
-  .z1tjc {
+  .mc6bc {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .z1tjc-menu {
+  .mc6bc-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -250,28 +250,28 @@
     float: left;
   }
 
-  .z1tjc-desc {
+  .mc6bc-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .z1tjc-menu>a {
+  .mc6bc-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .z1tjc-menu>.active,
-  .z1tjc-menu>a:hover {
+  .mc6bc-menu>.active,
+  .mc6bc-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .z1tjc-desc-menu {
+  .mc6bc-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -279,19 +279,19 @@
     border-radius: 5px;
   }
 
-  .z1tjc-desc-menu>div {
+  .mc6bc-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .z1tjc-desc-body {
+  .mc6bc-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .z1tjc-title {
+  .mc6bc-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -304,7 +304,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .z1tjc-title::before {
+  .mc6bc-title::before {
     content: '';
     position: absolute;
     top: 0;
@@ -319,19 +319,19 @@
     z-index: 1;
   }
 
-  .z1tjc-title span {
+  .mc6bc-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .z1tjc-body {
+  .mc6bc-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .z1tjc-img {
+  .mc6bc-img {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -339,32 +339,32 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .z1tjc-desc {
+    .mc6bc-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .z1tjc {
+    .mc6bc {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .z1tjc-img {
+    .mc6bc-img {
       width: 100%;
     }
 
-    .z1tjc-body {
+    .mc6bc-body {
       width: 100%;
     }
 
-    .z1tjc-menu {
+    .mc6bc-menu {
       display: none;
     }
 
-    .z1tjc-desc {
+    .mc6bc-desc {
       width: 100% !important;
     }
   }
