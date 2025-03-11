@@ -33,28 +33,28 @@
     
   </head>
   <body>
-    <div id="header"><div class="ltp0h">
-  <div class="ltp0htitle">
-    <div class="ltp0htitlebody">
-      <div class="ltp0htitlebodytitle">
+    <div id="header"><div class="npags">
+  <div class="npagstitle">
+    <div class="npagstitlebody">
+      <div class="npagstitlebodytitle">
         Okyaylar Gıda Web Sitemize Hoşgeldiniz
       </div>
-      <div class="ltp0htitlebodylang">
+      <div class="npagstitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ltp0hbody">
-    <a href="/tr"><img src="/img/logo.png" class="ltp0hbodylogo" /></a>
+  <div class="npagsbody">
+    <a href="/tr"><img src="/img/logo.png" class="npagsbodylogo" /></a>
   </div>
-  <div class="ltp0hmenubody">
-    <div class="ltp0hmenu">
-      <div class="ltp0hmenulistbody">
-        <div class="ltp0hmenulist">
+  <div class="npagsmenubody">
+    <div class="npagsmenu">
+      <div class="npagsmenulistbody">
+        <div class="npagsmenulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/belgelerimiz/">Belgelerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
@@ -62,7 +62,7 @@
   </div>
 </div>
 <style>
-  .ltp0h {
+  .npags {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
     justify-content: center;
   }
 
-  .ltp0htitle {
+  .npagstitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -78,7 +78,7 @@
     justify-content: center;
   }
 
-  .ltp0htitlebody {
+  .npagstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -86,24 +86,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ltp0htitlebodytitle {
+  .npagstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ltp0htitlebodylang {
+  .npagstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ltp0htitlebodylang ul {
+  .npagstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ltp0hbody {
+  .npagsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -111,14 +111,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ltp0hmenu {
+  .npagsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ltp0hmenulist {
+  .npagsmenulist {
     width: calc(100% - 20px);
     background-color: #007334;
     padding: 10px;
@@ -126,7 +126,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ltp0hmenubody {
+  .npagsmenubody {
     width: 100%;
     background-color: #007334;
     display: flex;
@@ -134,7 +134,7 @@
     justify-content: center;
   }
 
-  .ltp0hmenulist ul {
+  .npagsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -144,7 +144,7 @@
     overflow-x: auto;
   }
 
-  .ltp0hmenulist ul a {
+  .npagsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -156,40 +156,40 @@
     white-space: nowrap;
   }
 
-  .ltp0hmenulist ul a:hover {
+  .npagsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ltp0hmenulistactive {
+  .npagsmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ltp0hmenulistbody {
+  .npagsmenulistbody {
     width: 100%;
   }
 
-  .ltp0hbodylogo {
+  .npagsbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ltp0hmenu {
+    .npagsmenu {
       overflow-x: auto;
     }
 
-    .ltp0hmenulist ul {
+    .npagsmenulist ul {
       flex-direction: row;
     }
 
-    .ltp0hbodylogo {
+    .npagsbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -197,25 +197,25 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ltp0hmenulist ul a {
+    .npagsmenulist ul a {
       font-size: 14px;
     }
   }
 </style>
 </div>
-    <div id="content"><div class="k4wkm-title f36">
+    <div id="content"><div class="vupod-title f36">
   <span>ANTEP FISTIĞI KIRMIZI İÇ</span>
 </div>
-<div class="k4wkm">
-  <div class="k4wkm-menu"><a   href="/tr/oe1i7hmkue" >ANTEP FISTIĞI</a><a   href="/tr/e0ckc2krd4" >ANTEP FISTIĞI BOZ İÇ</a><a class="active"  href="/tr/v6mk7lvw3q" >ANTEP FISTIĞI KIRMIZI İÇ</a><a   href="/tr/qudop5pdyk" >ANTEP FISTIĞI NEVERDİ</a><a   href="/tr/ahn0afqif6" >BADEM İÇİ</a><a   href="/tr/sn5p9v0fmb" >CEVİZ İÇİ</a><a   href="/tr/oc9obttx7l" >KABUKLU CEVİZ</a><a   href="/tr/uizbyruqdi" >SİİRT FISTIĞI</a></div>
-  <div class="k4wkm-desc">
-    <div class="k4wkm-desc-body">
-      <div class="k4wkm-img">
+<div class="vupod">
+  <div class="vupod-menu"><a   href="/tr/oe1i7hmkue" >ANTEP FISTIĞI</a><a   href="/tr/e0ckc2krd4" >ANTEP FISTIĞI BOZ İÇ</a><a class="active"  href="/tr/v6mk7lvw3q" >ANTEP FISTIĞI KIRMIZI İÇ</a><a   href="/tr/qudop5pdyk" >ANTEP FISTIĞI NEVERDİ</a><a   href="/tr/ahn0afqif6" >BADEM İÇİ</a><a   href="/tr/sn5p9v0fmb" >CEVİZ İÇİ</a><a   href="/tr/oc9obttx7l" >KABUKLU CEVİZ</a><a   href="/tr/uizbyruqdi" >SİİRT FISTIĞI</a></div>
+  <div class="vupod-desc">
+    <div class="vupod-desc-body">
+      <div class="vupod-img">
         <img src="/page/v6mk7lvw3q/f0csj.png" width="100%" />
       </div>
       
     </div>
-    <div class="k4wkm-body"><h1></h1></div>
+    <div class="vupod-body"><h1></h1></div>
   </div>
 </div>
 <style>
@@ -223,14 +223,14 @@
     justify-content: start;
   }
 
-  .k4wkm {
+  .vupod {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .k4wkm-menu {
+  .vupod-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -241,28 +241,28 @@
     float: left;
   }
 
-  .k4wkm-desc {
+  .vupod-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .k4wkm-menu>a {
+  .vupod-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .k4wkm-menu>.active,
-  .k4wkm-menu>a:hover {
+  .vupod-menu>.active,
+  .vupod-menu>a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .k4wkm-desc-menu {
+  .vupod-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -270,19 +270,19 @@
     border-radius: 5px;
   }
 
-  .k4wkm-desc-menu>div {
+  .vupod-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .k4wkm-desc-body {
+  .vupod-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .k4wkm-title {
+  .vupod-title {
     width: 100%;
     height: 300px;
     background-color: #000;
@@ -295,7 +295,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .k4wkm-title::before {
+  .vupod-title::before {
     content: '';
     position: absolute;
     top: 0;
@@ -310,19 +310,19 @@
     z-index: 1;
   }
 
-  .k4wkm-title span {
+  .vupod-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .k4wkm-body {
+  .vupod-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .k4wkm-img {
+  .vupod-img {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -330,32 +330,32 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .k4wkm-desc {
+    .vupod-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .k4wkm {
+    .vupod {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .k4wkm-img {
+    .vupod-img {
       width: 100%;
     }
 
-    .k4wkm-body {
+    .vupod-body {
       width: 100%;
     }
 
-    .k4wkm-menu {
+    .vupod-menu {
       display: none;
     }
 
-    .k4wkm-desc {
+    .vupod-desc {
       width: 100% !important;
     }
   }
@@ -391,7 +391,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/belgelerimiz">Belgelerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Okyaylar Gıda 2025 cognite. &copy;</p>
 </footer>

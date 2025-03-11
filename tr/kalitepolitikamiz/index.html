@@ -33,28 +33,28 @@
     
   </head>
   <body>
-    <div id="header"><div class="zv000">
-  <div class="zv000title">
-    <div class="zv000titlebody">
-      <div class="zv000titlebodytitle">
+    <div id="header"><div class="puhen">
+  <div class="puhentitle">
+    <div class="puhentitlebody">
+      <div class="puhentitlebodytitle">
         Okyaylar Gıda Web Sitemize Hoşgeldiniz
       </div>
-      <div class="zv000titlebodylang">
+      <div class="puhentitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="zv000body">
-    <a href="/tr"><img src="/img/logo.png" class="zv000bodylogo" /></a>
+  <div class="puhenbody">
+    <a href="/tr"><img src="/img/logo.png" class="puhenbodylogo" /></a>
   </div>
-  <div class="zv000menubody">
-    <div class="zv000menu">
-      <div class="zv000menulistbody">
-        <div class="zv000menulist">
+  <div class="puhenmenubody">
+    <div class="puhenmenu">
+      <div class="puhenmenulistbody">
+        <div class="puhenmenulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/belgelerimiz/">Belgelerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
@@ -62,7 +62,7 @@
   </div>
 </div>
 <style>
-  .zv000 {
+  .puhen {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
     justify-content: center;
   }
 
-  .zv000title {
+  .puhentitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -78,7 +78,7 @@
     justify-content: center;
   }
 
-  .zv000titlebody {
+  .puhentitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -86,24 +86,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zv000titlebodytitle {
+  .puhentitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zv000titlebodylang {
+  .puhentitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zv000titlebodylang ul {
+  .puhentitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zv000body {
+  .puhenbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -111,14 +111,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zv000menu {
+  .puhenmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zv000menulist {
+  .puhenmenulist {
     width: calc(100% - 20px);
     background-color: #007334;
     padding: 10px;
@@ -126,7 +126,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zv000menubody {
+  .puhenmenubody {
     width: 100%;
     background-color: #007334;
     display: flex;
@@ -134,7 +134,7 @@
     justify-content: center;
   }
 
-  .zv000menulist ul {
+  .puhenmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -144,7 +144,7 @@
     overflow-x: auto;
   }
 
-  .zv000menulist ul a {
+  .puhenmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -156,40 +156,40 @@
     white-space: nowrap;
   }
 
-  .zv000menulist ul a:hover {
+  .puhenmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zv000menulistactive {
+  .puhenmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zv000menulistbody {
+  .puhenmenulistbody {
     width: 100%;
   }
 
-  .zv000bodylogo {
+  .puhenbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
   @media screen and (max-width: 1024px) {
-    .zv000menu {
+    .puhenmenu {
       overflow-x: auto;
     }
 
-    .zv000menulist ul {
+    .puhenmenulist ul {
       flex-direction: row;
     }
 
-    .zv000bodylogo {
+    .puhenbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -197,25 +197,25 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zv000menulist ul a {
+    .puhenmenulist ul a {
       font-size: 14px;
     }
   }
 </style>
 </div>
-    <div id="content"><div class="cjjg0-title f36">
-  <span>Kalite Politikamız</span>
+    <div id="content"><div class="ccebt-title f36">
+  <span>Belgelerimiz</span>
 </div>
-<div class="cjjg0">
-  <div class="cjjg0-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a class="active"  href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicahaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="cjjg0-desc">
-    <div class="cjjg0-desc-body">
-      <div class="cjjg0-img">
+<div class="ccebt">
+  <div class="ccebt-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a class="active"  href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicahaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="ccebt-desc">
+    <div class="ccebt-desc-body">
+      <div class="ccebt-img">
         <img src="" width="100%" />
       </div>
       
     </div>
-    <div class="cjjg0-body"><h1><h2 style="font-size: 24px;">Kalite Politikamız</h2><p style=" font-size: 16px;">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p></h1></div>
+    <div class="ccebt-body"><h1><h2 style="font-size: 24px;">Kalite Politikamız</h2><p style=" font-size: 16px;">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p></h1></div>
   </div>
 </div>
 <style>
@@ -223,14 +223,14 @@
     justify-content: start;
   }
 
-  .cjjg0 {
+  .ccebt {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .cjjg0-menu {
+  .ccebt-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -241,28 +241,28 @@
     float: left;
   }
 
-  .cjjg0-desc {
+  .ccebt-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .cjjg0-menu>a {
+  .ccebt-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .cjjg0-menu>.active,
-  .cjjg0-menu>a:hover {
+  .ccebt-menu>.active,
+  .ccebt-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .cjjg0-desc-menu {
+  .ccebt-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -270,19 +270,19 @@
     border-radius: 5px;
   }
 
-  .cjjg0-desc-menu>div {
+  .ccebt-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .cjjg0-desc-body {
+  .ccebt-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .cjjg0-title {
+  .ccebt-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -295,7 +295,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .cjjg0-title::before {
+  .ccebt-title::before {
     content: '';
     position: absolute;
     top: 0;
@@ -310,19 +310,19 @@
     z-index: 1;
   }
 
-  .cjjg0-title span {
+  .ccebt-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .cjjg0-body {
+  .ccebt-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .cjjg0-img {
+  .ccebt-img {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -330,36 +330,176 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .cjjg0-desc {
+    .ccebt-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .cjjg0 {
+    .ccebt {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .cjjg0-img {
+    .ccebt-img {
       width: 100%;
     }
 
-    .cjjg0-body {
+    .ccebt-body {
       width: 100%;
     }
 
-    .cjjg0-menu {
+    .ccebt-menu {
       display: none;
     }
 
-    .cjjg0-desc {
+    .ccebt-desc {
       width: 100% !important;
     }
   }
 </style>
+<div class="sliderxoa6evbody">
+  <div class="sliderxoa6ev">
+    <div class="sliderxoa6evtitle">Belgelerimiz</div>
+    <div class="oa6ev swiper-container">
+      <div class="swiper-wrapper"><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/0.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/0.jpg')" />
+      </div>
+    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/1.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/1.jpg')" />
+      </div>
+    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/2.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/2.jpg')" />
+      </div>
+    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/3.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/3.jpg')" />
+      </div>
+    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/4.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/4.jpg')" />
+      </div>
+    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img src="/img/cezkkg/5.jpg" class="modulchildoa6ev2" onclick="imgfull('/img/cezkkg/5.jpg')" />
+      </div>
+    </div></div>
+      <div class="swiper-button-next swiper-button-next-oa6ev"></div>
+      <div class="swiper-button-prev swiper-button-prev-oa6ev"></div>
+      <div class="swiper-pagination-oa6ev"></div>
+    </div>
+  </div>
+</div>
+<style>
+  .sliderxoa6evbody {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007334;
+    padding: 25px 0px 25px 0px;
+    margin: 30px 0px 0px 0px;
+  }
+  .sliderxoa6ev {
+    width: var(--max);
+    margin: 10px 0px 10px 0px;
+  }
+  .swiper-pagination-oa6ev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px !important;
+  }
+  .sliderxoa6evtitle {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1024px) {
+    .sliderxoa6ev {
+      width: 100%;
+    }
+  }
+  .swiper-button-prev-oa6ev,
+  .swiper-button-next-oa6ev {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 10;
+    opacity: 0.4;
+  }
+  .swiper-slide > .swiper-slide33 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .oa6ev {
+    overflow-x: auto;
+  }
+  .oa6ev::-webkit-scrollbar {
+    display: none;
+  }
+  .modulchildoa6ev2 {
+    aspect-ratio: 1/1;
+    text-align: -webkit-center;
+    object-fit: cover;
+    /* Resmin oranını korur ve taşıyıcı kutuya sığdırır */
+    width: 100%;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+  }
+  .modulchildoa6ev3 {
+    float: left;
+    padding: 5px;
+  }
+</style>
+<script>
+  var jsonslider = {
+    slidesPerView: 2,
+    simulateTouch: true,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination-oa6ev',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next-oa6ev',
+      prevEl: '.swiper-button-prev-oa6ev',
+    },
+    breakpoints: {
+      480: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      960: {
+        slidesPerView: '6', // Replace '6' with a number
+      },
+    },
+  };
+  if ('true' === 'true') {
+  } else {
+    document.querySelector('.swiper-button-next-oa6ev').style.display =
+      'none';
+    document.querySelector('.swiper-button-prev-oa6ev').style.display =
+      'none';
+  }
+  var swiper = new Swiper('.oa6ev', jsonslider);
+</script>
 </div>
     <div id="footer"><footer class="footer">
   <div class="waves">
@@ -391,7 +531,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/belgelerimiz">Belgelerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Okyaylar Gıda 2025 cognite. &copy;</p>
 </footer>
