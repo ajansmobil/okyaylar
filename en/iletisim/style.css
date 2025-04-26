@@ -1,5 +1,5 @@
 
-  .khvpv {
+  .zhex5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .khvpvtitle {
+  .zhex5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .khvpvtitlebody {
+  .zhex5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .khvpvtitlebodytitle {
+  .zhex5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .khvpvtitlebodylang {
+  .zhex5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .khvpvtitlebodylang ul {
+  .zhex5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .khvpvbody {
+  .zhex5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,30 +48,30 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .khvpvmenu {
+  .zhex5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .khvpvmenulist {
+  .zhex5menulist {
     width: calc(100% - 20px);
-    background-color: #007334;
+    background-color: #000000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .khvpvmenubody {
+  .zhex5menubody {
     width: 100%;
-    background-color: #007334;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .khvpvmenulist ul {
+  .zhex5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .khvpvmenulist ul a {
+  .zhex5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,54 +93,56 @@
     white-space: nowrap;
   }
 
-  .khvpvmenulist ul a:hover {
+  .zhex5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .khvpvmenulistactive {
+  .zhex5menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .khvpvmenulistbody {
+  .zhex5menulistbody {
     width: 100%;
   }
 
-  .khvpvbodylogo {
+
+  @media screen and (min-width: 1024px) {
+   .zhex5bodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+  }
 
   @media screen and (max-width: 1024px) {
-    .khvpvmenu {
+    .zhex5menu {
       overflow-x: auto;
     }
 
-    .khvpvmenulist ul {
+    .zhex5menulist ul {
       flex-direction: row;
     }
 
-    .khvpvbodylogo {
-      height: 50vw;
+    .zhex5bodylogo {
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .khvpvmenulist ul a {
+    .zhex5menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .skpy8 {
+  .wjglh {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -148,13 +150,13 @@
     justify-content: center;
     position: relative;
   }
-  .skpy8containertitle {
+  .wjglhcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .skpy8containerlist {
+  .wjglhcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -162,23 +164,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .skpy8containerlist > div {
+  .wjglhcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .skpy8containerlist:hover {
+  .wjglhcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #007334;
   }
-  .skpy8container {
+  .wjglhcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .skpy8containerbody {
+  .wjglhcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -187,24 +189,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .skpy8body {
+  .wjglhbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .skpy8containerlist > span {
+  .wjglhcontainerlist > span {
     font-size: 24px;
     color: #007334;
   }
   @media screen and (max-width: 1024px) {
-    .skpy8body {
+    .wjglhbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .skpy8containerbody {
+    .wjglhcontainerbody {
       padding: 15px;
     }
   }
@@ -234,13 +236,13 @@
       transform: scale(1);
     }
   }
-  .u1rle-body {
+  .axrh6-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .u1rle-body-chile {
+  .axrh6-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -248,10 +250,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .u1rle-body-chile > div {
+  .axrh6-body-chile > div {
     width: 100% !important;
   }
-  .u1rle2 {
+  .axrh62 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -262,21 +264,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .u1rle {
+  .axrh6 {
     display: flex;
     flex-direction: column;
   }
-  .u1rle > svg {
+  .axrh6 > svg {
     width: 100vw;
   }
-  .u1rlebotton {
+  .axrh6botton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .u1rle-svg {
+  .axrh6-svg {
     fill: #fff;
   }
-  .u1rle-bg {
+  .axrh6-bg {
     background-image: url("/img/ocsej5/map.png") !important;
     background-size: cover;
     background-position: center center;
@@ -318,7 +320,7 @@
 
   .footer {
     position: relative;
-    background: #007334;
+    background: #000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -382,7 +384,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23007334;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 

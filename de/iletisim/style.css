@@ -1,5 +1,5 @@
 
-  .iwv1t {
+  .m178d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .iwv1ttitle {
+  .m178dtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .iwv1ttitlebody {
+  .m178dtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .iwv1ttitlebodytitle {
+  .m178dtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .iwv1ttitlebodylang {
+  .m178dtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .iwv1ttitlebodylang ul {
+  .m178dtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .iwv1tbody {
+  .m178dbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,30 +48,30 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .iwv1tmenu {
+  .m178dmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .iwv1tmenulist {
+  .m178dmenulist {
     width: calc(100% - 20px);
-    background-color: #007334;
+    background-color: #000000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .iwv1tmenubody {
+  .m178dmenubody {
     width: 100%;
-    background-color: #007334;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .iwv1tmenulist ul {
+  .m178dmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .iwv1tmenulist ul a {
+  .m178dmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,54 +93,56 @@
     white-space: nowrap;
   }
 
-  .iwv1tmenulist ul a:hover {
+  .m178dmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .iwv1tmenulistactive {
+  .m178dmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .iwv1tmenulistbody {
+  .m178dmenulistbody {
     width: 100%;
   }
 
-  .iwv1tbodylogo {
+
+  @media screen and (min-width: 1024px) {
+   .m178dbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
+  }
 
   @media screen and (max-width: 1024px) {
-    .iwv1tmenu {
+    .m178dmenu {
       overflow-x: auto;
     }
 
-    .iwv1tmenulist ul {
+    .m178dmenulist ul {
       flex-direction: row;
     }
 
-    .iwv1tbodylogo {
-      height: 50vw;
+    .m178dbodylogo {
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .iwv1tmenulist ul a {
+    .m178dmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .idd12 {
+  .m68a6 {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -148,13 +150,13 @@
     justify-content: center;
     position: relative;
   }
-  .idd12containertitle {
+  .m68a6containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .idd12containerlist {
+  .m68a6containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -162,23 +164,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .idd12containerlist > div {
+  .m68a6containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .idd12containerlist:hover {
+  .m68a6containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #007334;
   }
-  .idd12container {
+  .m68a6container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .idd12containerbody {
+  .m68a6containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -187,24 +189,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .idd12body {
+  .m68a6body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .idd12containerlist > span {
+  .m68a6containerlist > span {
     font-size: 24px;
     color: #007334;
   }
   @media screen and (max-width: 1024px) {
-    .idd12body {
+    .m68a6body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .idd12containerbody {
+    .m68a6containerbody {
       padding: 15px;
     }
   }
@@ -234,13 +236,13 @@
       transform: scale(1);
     }
   }
-  .dzphw-body {
+  .yvrm0-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .dzphw-body-chile {
+  .yvrm0-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -248,10 +250,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .dzphw-body-chile > div {
+  .yvrm0-body-chile > div {
     width: 100% !important;
   }
-  .dzphw2 {
+  .yvrm02 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -262,21 +264,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .dzphw {
+  .yvrm0 {
     display: flex;
     flex-direction: column;
   }
-  .dzphw > svg {
+  .yvrm0 > svg {
     width: 100vw;
   }
-  .dzphwbotton {
+  .yvrm0botton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .dzphw-svg {
+  .yvrm0-svg {
     fill: #fff;
   }
-  .dzphw-bg {
+  .yvrm0-bg {
     background-image: url("/img/ocsej5/map.png") !important;
     background-size: cover;
     background-position: center center;
@@ -318,7 +320,7 @@
 
   .footer {
     position: relative;
-    background: #007334;
+    background: #000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -382,7 +384,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23007334;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 
