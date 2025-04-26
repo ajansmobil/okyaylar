@@ -1,5 +1,5 @@
 
-  .qsven {
+  .liu6o {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .qsventitle {
+  .liu6otitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .qsventitlebody {
+  .liu6otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qsventitlebodytitle {
+  .liu6otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qsventitlebodylang {
+  .liu6otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qsventitlebodylang ul {
+  .liu6otitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qsvenbody {
+  .liu6obody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .qsvenmenu {
+  .liu6omenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qsvenmenulist {
+  .liu6omenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qsvenmenubody {
+  .liu6omenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .qsvenmenulist ul {
+  .liu6omenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .qsvenmenulist ul a {
+  .liu6omenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .qsvenmenulist ul a:hover {
+  .liu6omenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qsvenmenulistactive {
+  .liu6omenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .qsvenmenulistbody {
+  .liu6omenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .qsvenbodylogo {
+    .liu6obodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qsvenmenu {
+    .liu6omenu {
       overflow-x: auto;
     }
 
-    .qsvenmenulist ul {
+    .liu6omenulist ul {
       flex-direction: row;
     }
 
-    .qsvenbodylogo {
+    .liu6obodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qsvenmenulist ul a {
+    .liu6omenulist ul a {
       font-size: 14px;
     }
   }
