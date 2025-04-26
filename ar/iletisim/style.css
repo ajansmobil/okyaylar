@@ -1,5 +1,5 @@
 
-  .peh49 {
+  .xjixc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .peh49title {
+  .xjixctitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .peh49titlebody {
+  .xjixctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .peh49titlebodytitle {
+  .xjixctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .peh49titlebodylang {
+  .xjixctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .peh49titlebodylang ul {
+  .xjixctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .peh49body {
+  .xjixcbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .peh49menu {
+  .xjixcmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .peh49menulist {
+  .xjixcmenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .peh49menubody {
+  .xjixcmenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .peh49menulist ul {
+  .xjixcmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .peh49menulist ul a {
+  .xjixcmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .peh49menulist ul a:hover {
+  .xjixcmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .peh49menulistactive {
+  .xjixcmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .peh49menulistbody {
+  .xjixcmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .peh49bodylogo {
+    .xjixcbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .peh49menu {
+    .xjixcmenu {
       overflow-x: auto;
     }
 
-    .peh49menulist ul {
+    .xjixcmenulist ul {
       flex-direction: row;
     }
 
-    .peh49bodylogo {
+    .xjixcbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .peh49menulist ul a {
+    .xjixcmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .sg58n {
+  .foqfw {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .sg58ncontainertitle {
+  .foqfwcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .sg58ncontainerlist {
+  .foqfwcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .sg58ncontainerlist > div {
+  .foqfwcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .sg58ncontainerlist:hover {
+  .foqfwcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #007334;
   }
-  .sg58ncontainer {
+  .foqfwcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .sg58ncontainerbody {
+  .foqfwcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .sg58nbody {
+  .foqfwbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .sg58ncontainerlist > span {
+  .foqfwcontainerlist > span {
     font-size: 24px;
     color: #007334;
   }
   @media screen and (max-width: 1024px) {
-    .sg58nbody {
+    .foqfwbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .sg58ncontainerbody {
+    .foqfwcontainerbody {
       padding: 15px;
     }
   }
@@ -237,13 +237,13 @@
       transform: scale(1);
     }
   }
-  .h7zw7-body {
+  .jzugq-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .h7zw7-body-chile {
+  .jzugq-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +251,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .h7zw7-body-chile > div {
+  .jzugq-body-chile > div {
     width: 100% !important;
   }
-  .h7zw72 {
+  .jzugq2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +265,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .h7zw7 {
+  .jzugq {
     display: flex;
     flex-direction: column;
   }
-  .h7zw7 > svg {
+  .jzugq > svg {
     width: 100vw;
   }
-  .h7zw7botton {
+  .jzugqbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .h7zw7-svg {
+  .jzugq-svg {
     fill: #fff;
   }
-  .h7zw7-bg {
+  .jzugq-bg {
     background-image: url("/img/ocsej5/map.png") !important;
     background-size: cover;
     background-position: center center;
