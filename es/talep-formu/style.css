@@ -1,5 +1,5 @@
 
-  .gzliq {
+  .ck9bb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .gzliqtitle {
+  .ck9bbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .gzliqtitlebody {
+  .ck9bbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gzliqtitlebodytitle {
+  .ck9bbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gzliqtitlebodylang {
+  .ck9bbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gzliqtitlebodylang ul {
+  .ck9bbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gzliqbody {
+  .ck9bbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .gzliqmenu {
+  .ck9bbmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .gzliqmenulist {
+  .ck9bbmenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .gzliqmenubody {
+  .ck9bbmenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .gzliqmenulist ul {
+  .ck9bbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .gzliqmenulist ul a {
+  .ck9bbmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .gzliqmenulist ul a:hover {
+  .ck9bbmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gzliqmenulistactive {
+  .ck9bbmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .gzliqmenulistbody {
+  .ck9bbmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .gzliqbodylogo {
+    .ck9bbbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .gzliqmenu {
+    .ck9bbmenu {
       overflow-x: auto;
     }
 
-    .gzliqmenulist ul {
+    .ck9bbmenulist ul {
       flex-direction: row;
     }
 
-    .gzliqbodylogo {
+    .ck9bbbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .gzliqmenulist ul a {
+    .ck9bbmenulist ul a {
       font-size: 14px;
     }
   }
