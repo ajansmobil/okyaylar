@@ -1,5 +1,5 @@
 
-  .baifg {
+  .sn5nl {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .baifgtitle {
+  .sn5nltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .baifgtitlebody {
+  .sn5nltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .baifgtitlebodytitle {
+  .sn5nltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .baifgtitlebodylang {
+  .sn5nltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .baifgtitlebodylang ul {
+  .sn5nltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .baifgbody {
+  .sn5nlbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .baifgmenu {
+  .sn5nlmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .baifgmenulist {
+  .sn5nlmenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .baifgmenubody {
+  .sn5nlmenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .baifgmenulist ul {
+  .sn5nlmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .baifgmenulist ul a {
+  .sn5nlmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .baifgmenulist ul a:hover {
+  .sn5nlmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .baifgmenulistactive {
+  .sn5nl-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .baifgmenulistbody {
+  .sn5nlmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .baifgbodylogo {
+    .sn5nlbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .baifgmenu {
+    .sn5nlmenu {
       overflow-x: auto;
     }
 
-    .baifgmenulist ul {
+    .sn5nlmenulist ul {
       flex-direction: row;
     }
 
-    .baifgbodylogo {
+    .sn5nlbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .baifgmenulist ul a {
+    .sn5nlmenulist ul a {
       font-size: 14px;
     }
   }
@@ -147,7 +147,7 @@
     justify-content: start;
   }
 
-  .s10fk {
+  .f8su7 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -155,7 +155,7 @@
     position: relative;
   }
 
-  .s10fk-menu-btn {
+  .f8su7-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -167,11 +167,11 @@
     align-items: center;
   }
 
-  .s10fk-menu-btn i {
+  .f8su7-menu-btn i {
     font-size: 20px;
   }
 
-  .s10fk-menu {
+  .f8su7-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -182,28 +182,28 @@
     float: left;
   }
 
-  .s10fk-desc {
+  .f8su7-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .s10fk-menu>a {
+  .f8su7-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .s10fk-menu>.active,
-  .s10fk-menu>a:hover {
+  .f8su7-menu>.active,
+  .f8su7-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .s10fk-desc-menu {
+  .f8su7-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -211,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .s10fk-desc-menu>div {
+  .f8su7-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .s10fk-desc-body {
+  .f8su7-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .s10fk-title {
+  .f8su7-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -236,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .s10fk-title::before {
+  .f8su7-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,63 +251,64 @@
     z-index: 1;
   }
 
-  .s10fk-title span {
+  .f8su7-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .s10fk-body {
+  .f8su7-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .s10fk-img {
+  .f8su7-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .s10fk-img img {
+  .f8su7-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .s10fk-desc {
+    .f8su7-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .s10fk-menu-btn {
+    .f8su7-menu-btn {
       display: flex;
       width: calc(100% - 55px);
-      margin-left: 5px;    }
+      margin-left: 5px;
+    }
 
-    .s10fk {
+    .f8su7 {
       display: flex;
       flex-direction: column;
       width: 100%;
       padding: 5px;
       gap: 5px;
-          margin-top: 0px;
+      margin-top: 0px;
 
     }
 
-    .s10fk-img {
+    .f8su7-img {
       width: 100%;
     }
 
-    .s10fk-body {
+    .f8su7-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .s10fk-menu {
+    .f8su7-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -315,20 +316,18 @@
       display: none;
     }
 
-    .s10fk-menu.active {
+    .f8su7-menu.active {
       display: flex;
     }
 
-    .s10fk-desc {
+    .f8su7-desc {
       width: 100% !important;
       order: 2;
     }
   }
 
 
-
-
-  .sliderxlm7yfbody {
+  .sliderxfl4g9body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -337,17 +336,17 @@
     padding: 25px 0px 25px 0px;
     margin: 30px 0px 0px 0px;
   }
-  .sliderxlm7yf {
+  .sliderxfl4g9 {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-lm7yf {
+  .swiper-pagination-fl4g9 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxlm7yftitle {
+  .sliderxfl4g9title {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
@@ -355,12 +354,12 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxlm7yf {
+    .sliderxfl4g9 {
       width: 100%;
     }
   }
-  .swiper-button-prev-lm7yf,
-  .swiper-button-next-lm7yf {
+  .swiper-button-prev-fl4g9,
+  .swiper-button-next-fl4g9 {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -373,13 +372,13 @@
     margin: 10px;
     cursor: pointer;
   }
-  .lm7yf {
+  .fl4g9 {
     overflow-x: auto;
   }
-  .lm7yf::-webkit-scrollbar {
+  .fl4g9::-webkit-scrollbar {
     display: none;
   }
-  .modulchildlm7yf2 {
+  .modulchildfl4g92 {
     aspect-ratio: 1/1;
     text-align: -webkit-center;
     object-fit: cover;
@@ -390,7 +389,7 @@
     box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff;
   }
-  .modulchildlm7yf3 {
+  .modulchildfl4g93 {
     float: left;
     padding: 5px;
   }
@@ -402,8 +401,7 @@
     bottom: 30px;
     right: 30px;
     padding: 5px;
-    background-color: #4dc247;
-    display: flex;
+    background-color: var(--whatsapp-color, #4dc247);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -411,7 +409,9 @@
     color: #000 !important;
     z-index: 10000;
     padding-right: 20px;
+    width: var(--max);
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
@@ -489,28 +489,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

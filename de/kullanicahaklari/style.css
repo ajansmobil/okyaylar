@@ -1,5 +1,5 @@
 
-  .tfqbe {
+  .q0lip {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .tfqbetitle {
+  .q0liptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .tfqbetitlebody {
+  .q0liptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tfqbetitlebodytitle {
+  .q0liptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tfqbetitlebodylang {
+  .q0liptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tfqbetitlebodylang ul {
+  .q0liptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tfqbebody {
+  .q0lipbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .tfqbemenu {
+  .q0lipmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tfqbemenulist {
+  .q0lipmenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tfqbemenubody {
+  .q0lipmenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .tfqbemenulist ul {
+  .q0lipmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .tfqbemenulist ul a {
+  .q0lipmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .tfqbemenulist ul a:hover {
+  .q0lipmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tfqbemenulistactive {
+  .q0lip-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tfqbemenulistbody {
+  .q0lipmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .tfqbebodylogo {
+    .q0lipbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tfqbemenu {
+    .q0lipmenu {
       overflow-x: auto;
     }
 
-    .tfqbemenulist ul {
+    .q0lipmenulist ul {
       flex-direction: row;
     }
 
-    .tfqbebodylogo {
+    .q0lipbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .tfqbemenulist ul a {
+    .q0lipmenulist ul a {
       font-size: 14px;
     }
   }
@@ -147,7 +147,7 @@
     justify-content: start;
   }
 
-  .obnka {
+  .rtgua {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -155,7 +155,7 @@
     position: relative;
   }
 
-  .obnka-menu-btn {
+  .rtgua-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -167,11 +167,11 @@
     align-items: center;
   }
 
-  .obnka-menu-btn i {
+  .rtgua-menu-btn i {
     font-size: 20px;
   }
 
-  .obnka-menu {
+  .rtgua-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -182,28 +182,28 @@
     float: left;
   }
 
-  .obnka-desc {
+  .rtgua-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .obnka-menu>a {
+  .rtgua-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .obnka-menu>.active,
-  .obnka-menu>a:hover {
+  .rtgua-menu>.active,
+  .rtgua-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .obnka-desc-menu {
+  .rtgua-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -211,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .obnka-desc-menu>div {
+  .rtgua-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .obnka-desc-body {
+  .rtgua-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .obnka-title {
+  .rtgua-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -236,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .obnka-title::before {
+  .rtgua-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,63 +251,64 @@
     z-index: 1;
   }
 
-  .obnka-title span {
+  .rtgua-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .obnka-body {
+  .rtgua-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .obnka-img {
+  .rtgua-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .obnka-img img {
+  .rtgua-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .obnka-desc {
+    .rtgua-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .obnka-menu-btn {
+    .rtgua-menu-btn {
       display: flex;
       width: calc(100% - 55px);
-      margin-left: 5px;    }
+      margin-left: 5px;
+    }
 
-    .obnka {
+    .rtgua {
       display: flex;
       flex-direction: column;
       width: 100%;
       padding: 5px;
       gap: 5px;
-          margin-top: 0px;
+      margin-top: 0px;
 
     }
 
-    .obnka-img {
+    .rtgua-img {
       width: 100%;
     }
 
-    .obnka-body {
+    .rtgua-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .obnka-menu {
+    .rtgua-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -315,20 +316,18 @@
       display: none;
     }
 
-    .obnka-menu.active {
+    .rtgua-menu.active {
       display: flex;
     }
 
-    .obnka-desc {
+    .rtgua-desc {
       width: 100% !important;
       order: 2;
     }
   }
 
 
-
-
-  .sliderxvkx79body {
+  .sliderxnaa32body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -337,17 +336,17 @@
     padding: 25px 0px 25px 0px;
     margin: 30px 0px 0px 0px;
   }
-  .sliderxvkx79 {
+  .sliderxnaa32 {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-vkx79 {
+  .swiper-pagination-naa32 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxvkx79title {
+  .sliderxnaa32title {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
@@ -355,12 +354,12 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxvkx79 {
+    .sliderxnaa32 {
       width: 100%;
     }
   }
-  .swiper-button-prev-vkx79,
-  .swiper-button-next-vkx79 {
+  .swiper-button-prev-naa32,
+  .swiper-button-next-naa32 {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -373,13 +372,13 @@
     margin: 10px;
     cursor: pointer;
   }
-  .vkx79 {
+  .naa32 {
     overflow-x: auto;
   }
-  .vkx79::-webkit-scrollbar {
+  .naa32::-webkit-scrollbar {
     display: none;
   }
-  .modulchildvkx792 {
+  .modulchildnaa322 {
     aspect-ratio: 1/1;
     text-align: -webkit-center;
     object-fit: cover;
@@ -390,7 +389,7 @@
     box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff;
   }
-  .modulchildvkx793 {
+  .modulchildnaa323 {
     float: left;
     padding: 5px;
   }
@@ -402,8 +401,7 @@
     bottom: 30px;
     right: 30px;
     padding: 5px;
-    background-color: #4dc247;
-    display: flex;
+    background-color: var(--whatsapp-color, #4dc247);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -411,7 +409,9 @@
     color: #000 !important;
     z-index: 10000;
     padding-right: 20px;
+    width: var(--max);
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
@@ -489,28 +489,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

@@ -1,5 +1,5 @@
 
-  .glmyq {
+  .j7pxm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .glmyqtitle {
+  .j7pxmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .glmyqtitlebody {
+  .j7pxmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .glmyqtitlebodytitle {
+  .j7pxmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .glmyqtitlebodylang {
+  .j7pxmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .glmyqtitlebodylang ul {
+  .j7pxmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .glmyqbody {
+  .j7pxmbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .glmyqmenu {
+  .j7pxmmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .glmyqmenulist {
+  .j7pxmmenulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .glmyqmenubody {
+  .j7pxmmenubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .glmyqmenulist ul {
+  .j7pxmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .glmyqmenulist ul a {
+  .j7pxmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .glmyqmenulist ul a:hover {
+  .j7pxmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .glmyqmenulistactive {
+  .j7pxm-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .glmyqmenulistbody {
+  .j7pxmmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .glmyqbodylogo {
+    .j7pxmbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .glmyqmenu {
+    .j7pxmmenu {
       overflow-x: auto;
     }
 
-    .glmyqmenulist ul {
+    .j7pxmmenulist ul {
       flex-direction: row;
     }
 
-    .glmyqbodylogo {
+    .j7pxmbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .glmyqmenulist ul a {
+    .j7pxmmenulist ul a {
       font-size: 14px;
     }
   }
@@ -147,7 +147,7 @@
     justify-content: start;
   }
 
-  .dfkop {
+  .cz4kr {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -155,7 +155,7 @@
     position: relative;
   }
 
-  .dfkop-menu-btn {
+  .cz4kr-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -167,11 +167,11 @@
     align-items: center;
   }
 
-  .dfkop-menu-btn i {
+  .cz4kr-menu-btn i {
     font-size: 20px;
   }
 
-  .dfkop-menu {
+  .cz4kr-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -182,28 +182,28 @@
     float: left;
   }
 
-  .dfkop-desc {
+  .cz4kr-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .dfkop-menu>a {
+  .cz4kr-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .dfkop-menu>.active,
-  .dfkop-menu>a:hover {
+  .cz4kr-menu>.active,
+  .cz4kr-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .dfkop-desc-menu {
+  .cz4kr-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -211,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .dfkop-desc-menu>div {
+  .cz4kr-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .dfkop-desc-body {
+  .cz4kr-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .dfkop-title {
+  .cz4kr-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -236,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .dfkop-title::before {
+  .cz4kr-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,63 +251,64 @@
     z-index: 1;
   }
 
-  .dfkop-title span {
+  .cz4kr-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .dfkop-body {
+  .cz4kr-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .dfkop-img {
+  .cz4kr-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .dfkop-img img {
+  .cz4kr-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .dfkop-desc {
+    .cz4kr-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .dfkop-menu-btn {
+    .cz4kr-menu-btn {
       display: flex;
       width: calc(100% - 55px);
-      margin-left: 5px;    }
+      margin-left: 5px;
+    }
 
-    .dfkop {
+    .cz4kr {
       display: flex;
       flex-direction: column;
       width: 100%;
       padding: 5px;
       gap: 5px;
-          margin-top: 0px;
+      margin-top: 0px;
 
     }
 
-    .dfkop-img {
+    .cz4kr-img {
       width: 100%;
     }
 
-    .dfkop-body {
+    .cz4kr-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .dfkop-menu {
+    .cz4kr-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -315,20 +316,18 @@
       display: none;
     }
 
-    .dfkop-menu.active {
+    .cz4kr-menu.active {
       display: flex;
     }
 
-    .dfkop-desc {
+    .cz4kr-desc {
       width: 100% !important;
       order: 2;
     }
   }
 
 
-
-
-  .sliderxqyeg4body {
+  .sliderxb11q5body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -337,17 +336,17 @@
     padding: 25px 0px 25px 0px;
     margin: 30px 0px 0px 0px;
   }
-  .sliderxqyeg4 {
+  .sliderxb11q5 {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-qyeg4 {
+  .swiper-pagination-b11q5 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxqyeg4title {
+  .sliderxb11q5title {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
@@ -355,12 +354,12 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxqyeg4 {
+    .sliderxb11q5 {
       width: 100%;
     }
   }
-  .swiper-button-prev-qyeg4,
-  .swiper-button-next-qyeg4 {
+  .swiper-button-prev-b11q5,
+  .swiper-button-next-b11q5 {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -373,13 +372,13 @@
     margin: 10px;
     cursor: pointer;
   }
-  .qyeg4 {
+  .b11q5 {
     overflow-x: auto;
   }
-  .qyeg4::-webkit-scrollbar {
+  .b11q5::-webkit-scrollbar {
     display: none;
   }
-  .modulchildqyeg42 {
+  .modulchildb11q52 {
     aspect-ratio: 1/1;
     text-align: -webkit-center;
     object-fit: cover;
@@ -390,7 +389,7 @@
     box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff;
   }
-  .modulchildqyeg43 {
+  .modulchildb11q53 {
     float: left;
     padding: 5px;
   }
@@ -402,8 +401,7 @@
     bottom: 30px;
     right: 30px;
     padding: 5px;
-    background-color: #4dc247;
-    display: flex;
+    background-color: var(--whatsapp-color, #4dc247);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -411,7 +409,9 @@
     color: #000 !important;
     z-index: 10000;
     padding-right: 20px;
+    width: var(--max);
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
@@ -489,28 +489,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

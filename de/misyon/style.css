@@ -1,5 +1,5 @@
 
-  .tiuqv {
+  .fpug2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .tiuqvtitle {
+  .fpug2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .tiuqvtitlebody {
+  .fpug2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tiuqvtitlebodytitle {
+  .fpug2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tiuqvtitlebodylang {
+  .fpug2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tiuqvtitlebodylang ul {
+  .fpug2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tiuqvbody {
+  .fpug2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .tiuqvmenu {
+  .fpug2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tiuqvmenulist {
+  .fpug2menulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tiuqvmenubody {
+  .fpug2menubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .tiuqvmenulist ul {
+  .fpug2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .tiuqvmenulist ul a {
+  .fpug2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .tiuqvmenulist ul a:hover {
+  .fpug2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tiuqvmenulistactive {
+  .fpug2-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tiuqvmenulistbody {
+  .fpug2menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .tiuqvbodylogo {
+    .fpug2bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tiuqvmenu {
+    .fpug2menu {
       overflow-x: auto;
     }
 
-    .tiuqvmenulist ul {
+    .fpug2menulist ul {
       flex-direction: row;
     }
 
-    .tiuqvbodylogo {
+    .fpug2bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .tiuqvmenulist ul a {
+    .fpug2menulist ul a {
       font-size: 14px;
     }
   }
@@ -147,7 +147,7 @@
     justify-content: start;
   }
 
-  .eoz5c {
+  .voesf {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -155,7 +155,7 @@
     position: relative;
   }
 
-  .eoz5c-menu-btn {
+  .voesf-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -167,11 +167,11 @@
     align-items: center;
   }
 
-  .eoz5c-menu-btn i {
+  .voesf-menu-btn i {
     font-size: 20px;
   }
 
-  .eoz5c-menu {
+  .voesf-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -182,28 +182,28 @@
     float: left;
   }
 
-  .eoz5c-desc {
+  .voesf-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .eoz5c-menu>a {
+  .voesf-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .eoz5c-menu>.active,
-  .eoz5c-menu>a:hover {
+  .voesf-menu>.active,
+  .voesf-menu>a:hover {
     background-color: #007334;
     color: #fff;
     display: flex;
   }
 
-  .eoz5c-desc-menu {
+  .voesf-desc-menu {
     width: 200px;
     background-color: #007334;
     display: flex;
@@ -211,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .eoz5c-desc-menu>div {
+  .voesf-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .eoz5c-desc-body {
+  .voesf-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .eoz5c-title {
+  .voesf-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -236,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .eoz5c-title::before {
+  .voesf-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,63 +251,64 @@
     z-index: 1;
   }
 
-  .eoz5c-title span {
+  .voesf-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .eoz5c-body {
+  .voesf-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .eoz5c-img {
+  .voesf-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .eoz5c-img img {
+  .voesf-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .eoz5c-desc {
+    .voesf-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .eoz5c-menu-btn {
+    .voesf-menu-btn {
       display: flex;
       width: calc(100% - 55px);
-      margin-left: 5px;    }
+      margin-left: 5px;
+    }
 
-    .eoz5c {
+    .voesf {
       display: flex;
       flex-direction: column;
       width: 100%;
       padding: 5px;
       gap: 5px;
-          margin-top: 0px;
+      margin-top: 0px;
 
     }
 
-    .eoz5c-img {
+    .voesf-img {
       width: 100%;
     }
 
-    .eoz5c-body {
+    .voesf-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .eoz5c-menu {
+    .voesf-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -315,20 +316,18 @@
       display: none;
     }
 
-    .eoz5c-menu.active {
+    .voesf-menu.active {
       display: flex;
     }
 
-    .eoz5c-desc {
+    .voesf-desc {
       width: 100% !important;
       order: 2;
     }
   }
 
 
-
-
-  .sliderxmzwslbody {
+  .sliderxlj8d0body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -337,17 +336,17 @@
     padding: 25px 0px 25px 0px;
     margin: 30px 0px 0px 0px;
   }
-  .sliderxmzwsl {
+  .sliderxlj8d0 {
     width: var(--max);
     margin: 10px 0px 10px 0px;
   }
-  .swiper-pagination-mzwsl {
+  .swiper-pagination-lj8d0 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5px !important;
   }
-  .sliderxmzwsltitle {
+  .sliderxlj8d0title {
     width: 100%;
     font-size: 24px;
     font-weight: 500;
@@ -355,12 +354,12 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .sliderxmzwsl {
+    .sliderxlj8d0 {
       width: 100%;
     }
   }
-  .swiper-button-prev-mzwsl,
-  .swiper-button-next-mzwsl {
+  .swiper-button-prev-lj8d0,
+  .swiper-button-next-lj8d0 {
     color: #000;
     font-size: 28px;
     font-weight: bold;
@@ -373,13 +372,13 @@
     margin: 10px;
     cursor: pointer;
   }
-  .mzwsl {
+  .lj8d0 {
     overflow-x: auto;
   }
-  .mzwsl::-webkit-scrollbar {
+  .lj8d0::-webkit-scrollbar {
     display: none;
   }
-  .modulchildmzwsl2 {
+  .modulchildlj8d02 {
     aspect-ratio: 1/1;
     text-align: -webkit-center;
     object-fit: cover;
@@ -390,7 +389,7 @@
     box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff;
   }
-  .modulchildmzwsl3 {
+  .modulchildlj8d03 {
     float: left;
     padding: 5px;
   }
@@ -402,8 +401,7 @@
     bottom: 30px;
     right: 30px;
     padding: 5px;
-    background-color: #4dc247;
-    display: flex;
+    background-color: var(--whatsapp-color, #4dc247);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -411,7 +409,9 @@
     color: #000 !important;
     z-index: 10000;
     padding-right: 20px;
+    width: var(--max);
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
@@ -489,28 +489,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

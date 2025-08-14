@@ -1,5 +1,5 @@
 
-  .iisjd {
+  .fsew5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .iisjdtitle {
+  .fsew5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .iisjdtitlebody {
+  .fsew5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .iisjdtitlebodytitle {
+  .fsew5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .iisjdtitlebodylang {
+  .fsew5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .iisjdtitlebodylang ul {
+  .fsew5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .iisjdbody {
+  .fsew5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .iisjdmenu {
+  .fsew5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .iisjdmenulist {
+  .fsew5menulist {
     width: calc(100% - 20px);
     background-color: #000000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .iisjdmenubody {
+  .fsew5menubody {
     width: 100%;
     background-color: #000000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .iisjdmenulist ul {
+  .fsew5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .iisjdmenulist ul a {
+  .fsew5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .iisjdmenulist ul a:hover {
+  .fsew5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .iisjdmenulistactive {
+  .fsew5-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .iisjdmenulistbody {
+  .fsew5menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .iisjdbodylogo {
+    .fsew5bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .iisjdmenu {
+    .fsew5menu {
       overflow-x: auto;
     }
 
-    .iisjdmenulist ul {
+    .fsew5menulist ul {
       flex-direction: row;
     }
 
-    .iisjdbodylogo {
+    .fsew5bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,22 +137,22 @@
   }
 
   @media screen and (max-width: 768px) {
-    .iisjdmenulist ul a {
+    .fsew5menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .p0uvv {
+  .hhays {
     width: 100%;
     margin: 15px 0;
   }
-  .p0uvvbody {
+  .hhaysbody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
-  .p0uvvbodyitem {
+  .hhaysbodyitem {
     display: flex;
     padding: 10px;
     border-radius: 5px;
@@ -160,18 +160,18 @@
     gap: 5px;
     margin: 5px;
   }
-  .p0uvvbodyitemimg {
+  .hhaysbodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 250px;
     width: calc(250px * 2);
   }
-  .p0uvvbodyitemimg img {
+  .hhaysbodyitemimg img {
     max-height: 250px;
     max-width: 250px;
   }
-  .p0uvvbodyitemtitle {
+  .hhaysbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     display: flex;
@@ -180,7 +180,7 @@
     font-size: 18px;
     color: #1e3046;
   }
-  .p0uvvbodybg {
+  .hhaysbodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -190,7 +190,7 @@
     border-radius: 5px;
     opacity: 0.5;
   }
-  .p0uvvbodyitems {
+  .hhaysbodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -199,22 +199,22 @@
     opacity: 0;
     overflow: hidden;
   }
-  .p0uvvbodyitems.left {
+  .hhaysbodyitems.left {
     align-self: flex-start;
     border-radius: 0px 25px 25px 0px;
     transform: translateY(60px);
     animation: slideInLeft 1s forwards;
   }
-  .p0uvvbodyitems.right {
+  .hhaysbodyitems.right {
     align-self: flex-end;
     border-radius: 25px 0px 0px 25px;
     transform: translateY(60px);
     animation: slideInRight 1s forwards;
   }
-  .p0uvvbodyitem.lefts {
+  .hhaysbodyitem.lefts {
     align-self: flex-end;
   }
-  .p0uvvbodyitem.rights {
+  .hhaysbodyitem.rights {
     align-self: flex-start;
   }
   @keyframes slideInLeft {
@@ -237,7 +237,7 @@
       transform: translateX(0);
     }
   }
-  .p0uvvbodyitems {
+  .hhaysbodyitems {
     animation-delay: 0.3s;
     /* Adjust delay for staggered animation */
   }
@@ -249,8 +249,7 @@
     bottom: 30px;
     right: 30px;
     padding: 5px;
-    background-color: #4dc247;
-    display: flex;
+    background-color: var(--whatsapp-color, #4dc247);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -258,7 +257,9 @@
     color: #000 !important;
     z-index: 10000;
     padding-right: 20px;
+    width: var(--max);
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
@@ -336,28 +337,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
