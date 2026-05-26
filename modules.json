@@ -1,0 +1,328 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü ",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "bgcolor": "#000000",
+        "color": "#ffffff",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#000000"
+      },
+      "id": "l7l3zf",
+      "version": "1.0.0",
+      "icon": "menu"
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "bgcolor": "#000",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
+      },
+      "id": "h3wjak",
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset"
+    },
+    {
+      "index": 2,
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "desing": {
+        "delay": 3000,
+        "margin": "0px 0 0 0"
+      },
+      "data": [
+        {
+          "img": "fistik1.jpg"
+        },
+        {
+          "img": "fistik2.jpg"
+        },
+        {
+          "img": "fistik3.jpg"
+        },
+        {
+          "img": "fistik4.jpg"
+        },
+        {
+          "img": "fistik5.jpg"
+        },
+        {
+          "img": "fistik6.jpg"
+        },
+        {
+          "img": "fistik7.jpg"
+        },
+        {
+          "img": "fistik8.jpg"
+        },
+        {
+          "img": "fistik9.jpg"
+        }
+      ],
+      "id": "geq69o",
+      "version": "1.0.0",
+      "icon": "view_carousel"
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#fff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": ""
+      },
+      "id": "ocsej5",
+      "index": 3,
+      "version": "1.0.0",
+      "icon": "map"
+    },
+    {
+      "index": 4,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#007334",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact us",
+          "ar": "اتصل بنا",
+          "de": "Kontaktieren Sie uns",
+          "es": "Contáctenos"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90 342 238 17 60",
+          "url": "tel:00903422381760"
+        },
+        {
+          "icon": "email",
+          "text": "info@okyaylar.com",
+          "url": "email:info@okyaylar.com"
+        },
+        {
+          "icon": "map",
+          "text": "Gatem Şekercilar ve Kuruyemişçiler sitesi 15.blok no.27 Şehitkamil/Gaziantep/TÜRKİYE"
+        }
+      ],
+      "id": "p3ovzh",
+      "version": "1.0.0",
+      "icon": "contact_mail"
+    },
+    {
+      "index": 5,
+      "name": "Page Desing",
+      "path": "page-desing-2",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "menu-active": "#007334",
+        "category": "kurumsal"
+      },
+      "id": "zoymex",
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "index": 6,
+      "name": "Sayfa Listesi Column",
+      "path": "page-column-2",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "page": "products",
+        "size": 4
+      },
+      "id": "loa5ko"
+    },
+    {
+      "index": 7,
+      "name": "Sayfa Listesi Kare",
+      "path": "page-list",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1"
+      },
+      "id": "den5ek",
+      "version": "1.0.0",
+      "icon": "grid_view"
+    },
+    {
+      "index": 8,
+      "name": "Page Desing",
+      "path": "page-desing-2",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "menu-active": "#1e3046",
+        "category": "products"
+      },
+      "id": "az99da",
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "index": 9,
+      "name": "Belgeler",
+      "path": "module-slider-2",
+      "local": "body",
+      "category": "Module-list",
+      "desing": {
+        "name": {
+          "tr": "Belgelerimiz",
+          "en": "Our documents",
+          "ar": "مستنداتنا",
+          "de": "Unsere Dokumente",
+          "es": "Nuestros documentos"
+        },
+        "size": 6,
+        "button": "true",
+        "bgcolor": "#000",
+        "titlecolor": "#fff",
+        "padding": "25px 0px 25px 0px",
+        "margin": "30px 0px 0px 0px"
+      },
+      "data": [
+        {
+          "img": "0.jpg"
+        },
+        {
+          "img": "1.jpg"
+        },
+        {
+          "img": "2.jpg"
+        },
+        {
+          "img": "3.jpg"
+        },
+        {
+          "img": "4.jpg"
+        },
+        {
+          "img": "5.jpg"
+        }
+      ],
+      "id": "cezkkg"
+    },
+    {
+      "index": 10,
+      "name": "Whatsapp",
+      "path": "whatsapp",
+      "local": "footer",
+      "category": "contact",
+      "desing": {
+        "number": "905336108383",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact us",
+          "ar": "اتصل بنا",
+          "de": "Kontaktieren Sie uns",
+          "es": "Contáctenos"
+        },
+        "position": "fixed",
+        "color": "#25D366",
+        "z_index": 10000,
+        "responsive": true
+      },
+      "id": "twtgqo",
+      "data": [],
+      "version": "1.0.0",
+      "icon": "chat"
+    },
+    {
+      "index": 11,
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "desing": {
+        "name": {
+          "tr": "Okyaylar Gıda'yı Tanıyın",
+          "en": "Meet Okyaylar Food",
+          "ar": "تعرف على أوكيايلار للأغذية",
+          "de": "Lernen Sie Okyaylar Food kennen",
+          "es": "Conozca Okyaylar Food"
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا",
+          "de": "Unsere Vision",
+          "es": "Nuestra Visión"
+        },
+        "spot2": {
+          "tr": "Türk fıstığını dünya markası haline getirerek, global pazarda lider konuma ulaşmak.",
+          "en": "To become a global leader in pistachio export",
+          "ar": "أن نصبح رائدًا عالميًا في تصدير الفستق",
+          "de": "Ein globaler Marktführer im Pistazienexport zu werden",
+          "es": "Convertirnos en líder global en la exportación de pistachos"
+        },
+        "icon2": "trending_up",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا",
+          "de": "Unsere Mission",
+          "es": "Nuestra Misión"
+        },
+        "spot3": {
+          "tr": "En kaliteli Antep fıstığını, en modern üretim teknikleriyle işleyerek dünya pazarlarına sunmak.",
+          "en": "To process and deliver the highest quality pistachios to world markets",
+          "ar": "معالجة وتقديم أجود أنواع الفستق للأسواق العالمية",
+          "de": "Verarbeitung und Lieferung von Pistazien höchster Qualität an die Weltmärkte",
+          "es": "Procesar y entregar pistachos de la más alta calidad a los mercados mundiales"
+        },
+        "icon3": "verified",
+        "img": "bg.jpg",
+        "bgcolor": "#000",
+        "fontcolor": "#fff",
+        "margintop": "20",
+        "marginbotton": "20",
+        "description": {
+          "tr": "Company olarak 25 yıldır profesyonel personel kadromuz ile ithalat, ihracat, danışmanlık, lojistik ve transit ticaret alanlarında hizmet sunmaktan onur duyuyoruz. Ürünü olsun ya da olmasın, tüm firmalar için profesyonel ve kurumsal danışmanlık hizmeti sunarak firmaların etkin şekilde ithalat ya da ihracat yapmalarını sağlıyoruz.",
+          "en": "",
+          "ar": "",
+          "de": "",
+          "es": ""
+        }
+      },
+      "id": "o7u27w",
+      "version": "1.0.0",
+      "icon": "business"
+    }
+  ]
+}

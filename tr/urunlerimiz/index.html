@@ -1,159 +1,228 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Ürünlerimiz</title>
+  <meta property="og:title" content="Ürünlerimiz" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  <meta property="og:title" content="Ürünlerimiz" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://okyaylar.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=j9h70" />
-  <link rel="shortcut icon" href="/img/icon.png?v=j9h70" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="canonical" href="https://okyaylar.com/tr/urunlerimiz/" />
+
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=evprx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=evprx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=evprx" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Okyaylar Gıda",
+  "description": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg",
+  "image": "https://okyaylar.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg"
+}
+</script>
   
-<link rel="stylesheet" href="style.css?v=j9h70">
+<link rel="stylesheet" href="style.css?v=evprx">
 </head>
 
 <body>
-  <div id="header"><div class="ynn0u">
-  <div class="ynn0utitle">
-    <div class="ynn0utitlebody">
-      <div class="ynn0utitlebodytitle">
-        Okyaylar Gıda Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="ynn0utitlebodylang">
+  <div id="header"><div class="bb2o5">
+  <div class="bb2o5title">
+    <div class="bb2o5titlebody">
+      <div class="bb2o5titlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"  alt="de"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"  alt="es"></a></li>
+          <li><a href="/tr/urunlerimiz/">TR</a></li><li><a href="/en/urunlerimiz/">EN</a></li><li><a href="/ar/urunlerimiz/">AR</a></li><li><a href="/de/urunlerimiz/">DE</a></li><li><a href="/es/urunlerimiz/">ES</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ynn0ubody">
-    <a href="/tr/"><img src="/img/logo.svg?v=j9h70" alt="Okyaylar Gıda Logo" class="ynn0ubodylogo" /></a>
+  <div class="bb2o5body">
+    <a href="/tr/"
+      ><img
+        src="/img/logo.svg?v=dxl98"
+        alt="Okyaylar Gıda Logo"
+        class="bb2o5bodylogo"
+        loading="lazy"
+    /></a>
+    <button type="button" class="bb2o5-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
   </div>
-  <div class="ynn0umenubody">
-    <div class="ynn0umenu">
-      <div class="ynn0umenulistbody">
-        <div class="ynn0umenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="bb2o5-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="bb2o5menubody">
+    <div class="bb2o5menu" id="menu-2-root">
+      <div class="bb2o5menulistbody">
+        <div class="bb2o5menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a class="ynn0u-menu-list-active" href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/kurumsal-tld/">Kurumsal</a><a class="bb2o5-menu-list-active" href="/tr/urunlerimiz/">Ürünlerimiz</a><a href="/tr/talep-formu/">Talep Formu</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="bb2o5languages-mobile">
+        <ul>
+          <li><a href="/tr/urunlerimiz/">TR</a></li><li><a href="/en/urunlerimiz/">EN</a></li><li><a href="/ar/urunlerimiz/">AR</a></li><li><a href="/de/urunlerimiz/">DE</a></li><li><a href="/es/urunlerimiz/">ES</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  /* Mobil menü aç/kapat: class wrapper (.bb2o5) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".bb2o5") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("bb2o5menu-open")) {
+        target.classList.remove("bb2o5menu-open");
+      } else {
+        target.classList.add("bb2o5menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="zlqo6">
-  <div class="zlqo6body">
-      <a href="/tr/oe1i7hmkue"  style="animation-delay: 0.3s;" class="zlqo6bodyitems left" >
-        <div class="zlqo6bodyitem lefts">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/oe1i7hmkue/cakoa.jpg" alt=" Antep fıstığı ben kuru">
+  <div id="content"><div class="oq2ty">
+  <div class="oq2tybody">
+      <a href="/tr/antep-fistigi-ben-kuru"  style="animation-delay: 0.3s;" class="oq2tybodyitems left" >
+        <div class="oq2tybodyitem lefts">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/oe1i7hmkue/cakoa.jpg" alt=" Antep fıstığı ben kuru" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı ben kuru</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı ben kuru</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/oe1i7hmkue/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/oe1i7hmkue/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/e0ckc2krd4"  style="animation-delay: 0.6s;" class="zlqo6bodyitems right" >
-        <div class="zlqo6bodyitem rights">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/e0ckc2krd4/r8xf3.jpg" alt=" Antep fıstığı boz çekilmiş">
+      <a href="/tr/antep-fistigi-boz-cekilmis"  style="animation-delay: 0.6s;" class="oq2tybodyitems right" >
+        <div class="oq2tybodyitem rights">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/e0ckc2krd4/r8xf3.jpg" alt=" Antep fıstığı boz çekilmiş" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı boz çekilmiş</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı boz çekilmiş</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/e0ckc2krd4/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/e0ckc2krd4/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/v6mk7lvw3q"  style="animation-delay: 0.8999999999999999s;" class="zlqo6bodyitems left" >
-        <div class="zlqo6bodyitem lefts">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/v6mk7lvw3q/onvrm.jpg" alt=" Antep fıstığı boz tane">
+      <a href="/tr/antep-fistigi-boz-tane"  style="animation-delay: 0.8999999999999999s;" class="oq2tybodyitems left" >
+        <div class="oq2tybodyitem lefts">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/v6mk7lvw3q/onvrm.jpg" alt=" Antep fıstığı boz tane" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı boz tane</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı boz tane</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/v6mk7lvw3q/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/v6mk7lvw3q/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/qudop5pdyk"  style="animation-delay: 1.2s;" class="zlqo6bodyitems right" >
-        <div class="zlqo6bodyitem rights">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/qudop5pdyk/dgkq7.jpg" alt=" Antep fıstığı duble">
+      <a href="/tr/antep-fistigi-duble"  style="animation-delay: 1.2s;" class="oq2tybodyitems right" >
+        <div class="oq2tybodyitem rights">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/qudop5pdyk/dgkq7.jpg" alt=" Antep fıstığı duble" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı duble</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı duble</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/qudop5pdyk/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/qudop5pdyk/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/ahn0afqif6"  style="animation-delay: 1.5s;" class="zlqo6bodyitems left" >
-        <div class="zlqo6bodyitem lefts">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/ahn0afqif6/q3o6f.jpg" alt=" Antep fıstığı naturel">
+      <a href="/tr/antep-fistigi-naturel"  style="animation-delay: 1.5s;" class="oq2tybodyitems left" >
+        <div class="oq2tybodyitem lefts">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/ahn0afqif6/q3o6f.jpg" alt=" Antep fıstığı naturel" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı naturel</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı naturel</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/ahn0afqif6/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/ahn0afqif6/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/sn5p9v0fmb"  style="animation-delay: 1.8s;" class="zlqo6bodyitems right" >
-        <div class="zlqo6bodyitem rights">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/sn5p9v0fmb/sbkr3.jpg" alt=" Antep fıstığı neverdi">
+      <a href="/tr/antep-fistigi-neverdi"  style="animation-delay: 1.8s;" class="oq2tybodyitems right" >
+        <div class="oq2tybodyitem rights">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/sn5p9v0fmb/sbkr3.jpg" alt=" Antep fıstığı neverdi" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı neverdi</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı neverdi</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/sn5p9v0fmb/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/sn5p9v0fmb/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/oc9obttx7l"  style="animation-delay: 2.1s;" class="zlqo6bodyitems left" >
-        <div class="zlqo6bodyitem lefts">
-        <div class="zlqo6bodyitemimg">
-          <img src="/page/oc9obttx7l/z6e2b.jpg" alt=" Antep fıstığı neverdi tane">
+      <a href="/tr/antep-fistigi-neverdi-tane"  style="animation-delay: 2.1s;" class="oq2tybodyitems left" >
+        <div class="oq2tybodyitem lefts">
+        <div class="oq2tybodyitemimg">
+          <img src="/page/oc9obttx7l/z6e2b.jpg" alt=" Antep fıstığı neverdi tane" loading="lazy">
        </div>
-          <div class="zlqo6bodyitemtitle">
-           Antep fıstığı neverdi tane</div>
+          <h2 class="oq2tybodyitemtitle">
+           Antep fıstığı neverdi tane</h2>
         </div>
-        <div class="zlqo6bodybg" style=" background-image: url('/page/oc9obttx7l/bg/undefined'); background-size: cover;
+        <div class="oq2tybodybg" style=" background-image: url('/page/oc9obttx7l/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a></div>
 </div>
 
 </div>
-  <div id="footer"><a href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0" target="_blank" class="whatsapp">
+  <div id="footer"><a
+  href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0"
+  target="_blank"
+  class="whatsapp"
+>
   <div class="whatsappicon">
-    <svg _ngcontent-cty-c90="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon">
-      <path _ngcontent-cty-c90=""
+    <svg
+      _ngcontent-cty-c90=""
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 32 32"
+      class="wa-messenger-svg-whatsapp wh-svg-icon"
+    >
+      <path
+        _ngcontent-cty-c90=""
         d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
-        fill-rule="evenodd"></path>
+        fill-rule="evenodd"
+      ></path>
     </svg>
   </div>
   Bize Ulaşın
@@ -167,6 +236,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -189,17 +267,38 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal-tld">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunlerimiz">Ürünlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/talep-formu">Talep Formu</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Okyaylar Gıda 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<script type="text/javascript" src="/src/js.js?v=j9h70"></script>
-<script src="/src/cookie.js?v=j9h70"></script>
+
+
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=evprx"></script>
+<script defer src="/src/cookie.js?v=evprx"></script>
+
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

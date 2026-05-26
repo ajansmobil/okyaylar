@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Our Quality Policy",
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "es": "Nuestra política de calidad"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>",
+    "en": "<h2 style=\"font-size: 24px;\">Our Quality Policy</h2><p style=\" font-size: 16px;\">Our quality policy is based on an approach that aims to maintain customer satisfaction at the highest level and continuous improvement. In every project, we work to ensure the best quality standards and continuously review all our processes in this direction.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">سياسة الجودة لدينا</h2><p style=\" font-size: 16px;\">تعتمد سياسة الجودة لدينا على نهج يهدف إلى الحفاظ على رضا العملاء عند أعلى مستوى والتحسين المستمر. في كل مشروع، نعمل على ضمان أفضل معايير الجودة ونراجع باستمرار جميع عملياتنا في هذا الاتجاه.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Unsere Qualitätspolitik</h2><p style=\" font-size: 16px;\">Unsere Qualitätspolitik basiert auf einem Ansatz, der darauf abzielt, die Kundenzufriedenheit auf höchstem Niveau zu halten und kontinuierlich zu verbessern. In jedem Projekt arbeiten wir daran, die besten Qualitätsstandards sicherzustellen und überprüfen kontinuierlich alle unsere Prozesse in diese Richtung.</p>",
+    "es": "<h2 style=\"font-size: 24px;\">Nuestra Política de Calidad</h2><p style=\" font-size: 16px;\">Nuestra política de calidad se basa en un enfoque que tiene como objetivo mantener la satisfacción del cliente al más alto nivel y la mejora continua. En cada proyecto, trabajamos para garantizar los mejores estándares de calidad y revisamos continuamente todos nuestros procesos en esta dirección.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 4,
+  "bgimg": "vu0xl.jpg",
+  "update": "2026-03-03T10:01:46.490Z",
+  "date": "2026-03-03T10:01:44.741Z",
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Our Quality Policy",
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "es": "Nuestra política de calidad"
+  }
+}

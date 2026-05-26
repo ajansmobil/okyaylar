@@ -1,0 +1,54 @@
+{
+  "name": {
+    "tr": "Ürünlerimiz",
+    "en": "Our products",
+    "ar": "منتجاتنا",
+    "de": "Unsere Produkte",
+    "es": "Nuestros productos"
+  },
+  "status": "play",
+  "category": "",
+  "id": "yfdlhks39q",
+  "externalUrl": "",
+  "path": "urunlerimiz",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "loa5ko"
+    ],
+    "footer": []
+  },
+  "update": "2026-03-03T10:01:46.407Z",
+  "date": "2026-03-03T10:01:44.589Z",
+  "title": {
+    "tr": "Ürünlerimiz",
+    "en": "Our products",
+    "ar": "منتجاتنا",
+    "de": "Unsere Produkte",
+    "es": "Nuestros productos"
+  }
+}

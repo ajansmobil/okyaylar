@@ -1,78 +1,133 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>Institucional</title>
+  <meta property="og:title" content="Institucional" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  <meta property="og:title" content="Institucional" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://okyaylar.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=rdqdy" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rdqdy" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="canonical" href="https://okyaylar.com/es/kurumsal/" />
+
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=spodf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=spodf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=spodf" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Okyaylar Gıda",
+  "description": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg",
+  "image": "https://okyaylar.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg"
+}
+</script>
   
-<link rel="stylesheet" href="style.css?v=rdqdy">
+<link rel="stylesheet" href="style.css?v=spodf">
 </head>
 
 <body>
-  <div id="header"><div class="tg6jg">
-  <div class="tg6jgtitle">
-    <div class="tg6jgtitlebody">
-      <div class="tg6jgtitlebodytitle">
-        Okyaylar Gıda Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="tg6jgtitlebodylang">
+  <div id="header"><div class="gug53">
+  <div class="gug53title">
+    <div class="gug53titlebody">
+      <div class="gug53titlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"  alt="de"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"  alt="es"></a></li>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/de/kurumsal/">DE</a></li><li><a href="/es/kurumsal/">ES</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tg6jgbody">
-    <a href="/es/"><img src="/img/logo.svg?v=rdqdy" alt="Okyaylar Gıda Logo" class="tg6jgbodylogo" /></a>
+  <div class="gug53body">
+    <a href="/es/"
+      ><img
+        src="/img/logo.svg?v=eg027"
+        alt="Okyaylar Gıda Logo"
+        class="gug53bodylogo"
+        loading="lazy"
+    /></a>
+    <button type="button" class="gug53-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
   </div>
-  <div class="tg6jgmenubody">
-    <div class="tg6jgmenu">
-      <div class="tg6jgmenulistbody">
-        <div class="tg6jgmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="gug53-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="gug53menubody">
+    <div class="gug53menu" id="menu-2-root">
+      <div class="gug53menulistbody">
+        <div class="gug53menulist">
           <ul>
-            <a href="/es/">Pagina de inicio </a><a class="tg6jg-menu-list-active" href="/es/kurumsal/">Institucional</a><a href="/es/urunlerimiz/">Nuestros productos</a><a href="/es/talep-formu/">Formulario de solicitud</a><a href="/es/iletisim/">Comunicación</a>
+            <a href="/es/">Pagina de inicio </a><a href="/es/kurumsal-tld/">Institucional</a><a href="/es/urunlerimiz/">Nuestros productos</a><a href="/es/talep-formu/">Formulario de solicitud</a><a href="/es/iletisim/">Comunicación</a>
           </ul>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="gug53languages-mobile">
+        <ul>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/de/kurumsal/">DE</a></li><li><a href="/es/kurumsal/">ES</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  /* Mobil menü aç/kapat: class wrapper (.gug53) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".gug53") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("gug53menu-open")) {
+        target.classList.remove("gug53menu-open");
+      } else {
+        target.classList.add("gug53menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="y80iv-title f36">
-  <span>Institucional</span>
+  <div id="content"><div class="jx92c-title f36">
+  <h1>Institucional</h1>
 </div>
-<div class="y80iv">
-  <div class="y80iv-menu-btn">
+<div class="jx92c">
+  <div class="jx92c-menu-btn">
     <span>Menú</span>
     <i class="fas fa-bars"></i>
   </div>
-  <div class="y80iv-menu"><a class="active"  href="/es/kurumsal" >Institucional</a><a   href="/es/hakkimizda" >Sobre nosotros</a><a   href="/es/misyon" >Misión</a><a   href="/es/vizyon" >Visión</a><a   href="/es/kalitepolitikamiz" >Nuestra política de calidad</a><a   href="/es/gizlilikpolitikasi" >política de privacidad</a><a   href="/es/kisiselveriler" >Datos personales</a><a   href="/es/kullanicahaklari" >Derechos de usuario</a><a   href="/es/yasaluyari" >Advertencia legal</a></div>
-  <div class="y80iv-desc">
-
+  <div class="jx92c-menu"><a class="active"  href="/es/kurumsal" >Institucional</a><a   href="/es/hakkimizda" >Sobre nosotros</a><a   href="/es/misyon" >Misión</a><a   href="/es/vizyon" >Visión</a><a   href="/es/kalite-politikamiz" >Nuestra política de calidad</a><a   href="/es/gizlilik-politikasi" >política de privacidad</a><a   href="/es/kisisel-veriler" >Datos personales</a><a   href="/es/kullanici-haklari" >Derechos de usuario</a><a   href="/es/yasal-uyari" >Advertencia legal</a></div>
+  <div class="jx92c-desc">
     
-
-
-    <div class="y80iv-body"><p><h2 style="font-size: 24px;">Sobre Nosotros</h2></p>
+    <div class="jx92c-body"><p><h2 style="font-size: 24px;">Sobre Nosotros</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
 <p>        Somos una empresa que tiene como objetivo proporcionar el mejor servicio en el sector, manteniendo siempre la satisfacción del cliente en primer plano. Con nuestros enfoques innovadores y creativos, trabajamos para garantizar la máxima eficiencia y efectividad en cada proyecto. Nuestro equipo está formado por expertos profesionales en sus campos y está continuamente respaldado por oportunidades de desarrollo y capacitación. De esta manera, tanto satisfacemos las demandas de los clientes de la mejor manera posible como seguimos los últimos desarrollos en el sector para proporcionar soluciones que agregarán valor a nuestros clientes.</p>
 <p>    </p></p>
@@ -86,49 +141,54 @@
 </div>
 
 <script>
-  document.querySelector('.y80iv-menu-btn').addEventListener('click', function () {
-    document.querySelector('.y80iv-menu').classList.toggle('active');
-    const icon = this.querySelector('i');
-    icon.classList.toggle('fa-bars');
-    icon.classList.toggle('fa-times');
-  });
+  document
+    .querySelector(".jx92c-menu-btn")
+    .addEventListener("click", function () {
+      document.querySelector(".jx92c-menu").classList.toggle("active");
+      const icon = this.querySelector("i");
+      icon.classList.toggle("fa-bars");
+      icon.classList.toggle("fa-times");
+    });
 </script>
 
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 </head>
-<div class="sliderxlr4d6body">
-  <div class="sliderxlr4d6">
-    <div class="sliderxlr4d6title">Nuestros documentos</div>
-    <div class="lr4d6 swiper-container">
+<div class="sliderxnh5ubbody">
+  <div class="sliderxnh5ub">
+    <div class="sliderxnh5ubtitle">Nuestros documentos</div>
+    <div class="nh5ub swiper-container">
       <div class="swiper-wrapper"><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/0.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/0.jpg')" />
+        <img src="/img/cezkkg/0.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/0.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/1.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/1.jpg')" />
+        <img src="/img/cezkkg/1.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/1.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/2.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/2.jpg')" />
+        <img src="/img/cezkkg/2.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/2.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/3.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/3.jpg')" />
+        <img src="/img/cezkkg/3.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/3.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/4.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/4.jpg')" />
+        <img src="/img/cezkkg/4.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/4.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/5.jpg" class="modulchildlr4d62" onclick="imgfull('/img/cezkkg/5.jpg')" />
+        <img src="/img/cezkkg/5.jpg" class="modulchildnh5ub2" onclick="imgfull('/img/cezkkg/5.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div></div>
-      <div class="swiper-button-next swiper-button-next-lr4d6"></div>
-      <div class="swiper-button-prev swiper-button-prev-lr4d6"></div>
-      <div class="swiper-pagination-lr4d6"></div>
+      <div class="swiper-button-next swiper-button-next-nh5ub"></div>
+      <div class="swiper-button-prev swiper-button-prev-nh5ub"></div>
+      <div class="swiper-pagination-nh5ub"></div>
     </div>
   </div>
 </div>
@@ -139,12 +199,12 @@
     simulateTouch: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination-lr4d6",
+      el: ".swiper-pagination-nh5ub",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-lr4d6",
-      prevEl: ".swiper-button-prev-lr4d6",
+      nextEl: ".swiper-button-next-nh5ub",
+      prevEl: ".swiper-button-prev-nh5ub",
     },
     breakpoints: {
       480: {
@@ -163,21 +223,32 @@
   };
   if ("true" === "true") {
   } else {
-    document.querySelector(".swiper-button-next-lr4d6").style.display =
+    document.querySelector(".swiper-button-next-nh5ub").style.display =
       "none";
-    document.querySelector(".swiper-button-prev-lr4d6").style.display =
+    document.querySelector(".swiper-button-prev-nh5ub").style.display =
       "none";
   }
-  var swiper = new Swiper(".lr4d6", jsonslider);
+  var swiper = new Swiper(".nh5ub", jsonslider);
 </script>
 </div>
-  <div id="footer"><a href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0" target="_blank" class="whatsapp">
+  <div id="footer"><a
+  href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0"
+  target="_blank"
+  class="whatsapp"
+>
   <div class="whatsappicon">
-    <svg _ngcontent-cty-c90="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon">
-      <path _ngcontent-cty-c90=""
+    <svg
+      _ngcontent-cty-c90=""
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 32 32"
+      class="wa-messenger-svg-whatsapp wh-svg-icon"
+    >
+      <path
+        _ngcontent-cty-c90=""
         d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
-        fill-rule="evenodd"></path>
+        fill-rule="evenodd"
+      ></path>
     </svg>
   </div>
   Contáctenos
@@ -191,6 +262,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -213,17 +293,38 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/es">Pagina de inicio</a></li><li class="menu__item"><a class="menu__link" href="/es/kurumsal">Institucional</a></li><li class="menu__item"><a class="menu__link" href="/es/urunlerimiz">Nuestros productos</a></li><li class="menu__item"><a class="menu__link" href="/es/talep-formu">Formulario de solicitud</a></li><li class="menu__item"><a class="menu__link" href="/es/iletisim">Comunicación</a></li>
+    <li class="menu__item"><a class="menu__link" href="/es">Pagina de inicio</a></li><li class="menu__item"><a class="menu__link" href="/es/kurumsal-tld">Institucional</a></li><li class="menu__item"><a class="menu__link" href="/es/urunlerimiz">Nuestros productos</a></li><li class="menu__item"><a class="menu__link" href="/es/talep-formu">Formulario de solicitud</a></li><li class="menu__item"><a class="menu__link" href="/es/iletisim">Comunicación</a></li>
   </ul>
   <p>Okyaylar Gıda 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<script type="text/javascript" src="/src/js.js?v=rdqdy"></script>
-<script src="/src/cookie.js?v=rdqdy"></script>
+
+
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=spodf"></script>
+<script defer src="/src/cookie.js?v=spodf"></script>
+
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

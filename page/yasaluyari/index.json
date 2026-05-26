@@ -1,0 +1,59 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal warning",
+    "ar": "تحذير قانوني",
+    "de": "Rechtswarnung",
+    "es": "Advertencia legal"
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Yasal Uyarı</h2>\n    <p style=\" font-size: 16px;\">\n        Bu web sitesinde yer alan tüm içerik, telif hakkı yasaları ve diğer ilgili mevzuat kapsamında korunmaktadır. İçeriğin tamamı veya bir kısmı, önceden yazılı izin alınmaksızın hiçbir şekilde kopyalanamaz, çoğaltılamaz, dağıtılamaz, yayınlanamaz veya değiştirilemez. Tüm hakları saklıdır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Web sitesinde yer alan bilgiler, genel bilgilendirme amacıyla sunulmaktadır ve herhangi bir taahhüt veya garanti teşkil etmemektedir. Bu bilgilerin doğruluğu, güncelliği ve eksiksizliği konusunda hiçbir sorumluluk kabul edilmemektedir. Web sitesinin kullanımından doğabilecek herhangi bir zarar veya kayıptan dolayı sorumluluk kabul edilmemektedir.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Web sitesinde yer alan üçüncü taraflara ait bağlantılar ve içerikler sadece bilgilendirme amaçlıdır. Bu bağlantıların ve içeriklerin güvenilirliği, doğruluğu ve güncelliği konusunda hiçbir garanti verilmemektedir. Üçüncü taraf web sitelerinin kullanımından doğabilecek sonuçlardan dolayı sorumluluk kabul edilmemektedir.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Legal Notice</h2>\n    <p style=\" font-size: 16px;\">\n        All content on this website is protected under copyright laws and other relevant legislation. No part of the content may be copied, reproduced, distributed, published, or modified without prior written permission. All rights reserved.\n    </p>\n    <p style=\" font-size: 16px;\">\n        The information provided on the website is for general information purposes only and does not constitute any commitment or guarantee. No responsibility is accepted for the accuracy, currency, and completeness of this information. No liability is accepted for any damage or loss that may arise from the use of the website.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Third-party links and content on the website are for informational purposes only. No guarantee is given regarding the reliability, accuracy, and currency of these links and content. No responsibility is accepted for any consequences arising from the use of third-party websites.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">تحذير قانوني</h2>\n    <p style=\" font-size: 16px;\">\n        جميع المحتويات الموجودة على هذا الموقع محمية بموجب قوانين حقوق النشر والتشريعات الأخرى ذات الصلة. لا يجوز نسخ أو إعادة إنتاج أو توزيع أو نشر أو تعديل أي جزء من المحتوى دون إذن كتابي مسبق. جميع الحقوق محفوظة.\n    </p>\n    <p style=\" font-size: 16px;\">\n        المعلومات المقدمة على الموقع هي لأغراض المعلومات العامة فقط ولا تشكل أي التزام أو ضمان. لا نتحمل أي مسؤولية عن دقة وحداثة واكتمال هذه المعلومات. لا نتحمل أي مسؤولية عن أي ضرر أو خسارة قد تنشأ عن استخدام الموقع.\n    </p>\n    <p style=\" font-size: 16px;\">\n        الروابط والمحتوى الخاص بالأطراف الثالثة على الموقع هي لأغراض إعلامية فقط. لا يتم تقديم أي ضمان فيما يتعلق بموثوقية ودقة وحداثة هذه الروابط والمحتوى. لا نتحمل أي مسؤولية عن أي عواقب تنشأ عن استخدام مواقع الأطراف الثالثة.\n    </p>",
+    "de": "<h2 style=\"font-size: 24px;\">Rechtlicher Hinweis</h2>\n    <p style=\" font-size: 16px;\">\n        Alle Inhalte dieser Website sind durch Urheberrechtsgesetze und andere relevante Gesetzgebungen geschützt. Kein Teil des Inhalts darf ohne vorherige schriftliche Genehmigung kopiert, reproduziert, verbreitet, veröffentlicht oder modifiziert werden. Alle Rechte vorbehalten.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Die auf der Website bereitgestellten Informationen dienen ausschließlich der allgemeinen Information und stellen keine Verpflichtung oder Garantie dar. Für die Richtigkeit, Aktualität und Vollständigkeit dieser Informationen wird keine Verantwortung übernommen. Für Schäden oder Verluste, die durch die Nutzung der Website entstehen können, wird keine Haftung übernommen.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Links und Inhalte von Drittanbietern auf der Website dienen ausschließlich Informationszwecken. Für die Zuverlässigkeit, Richtigkeit und Aktualität dieser Links und Inhalte wird keine Gewähr übernommen. Für Folgen, die sich aus der Nutzung von Websites Dritter ergeben, wird keine Verantwortung übernommen.\n    </p>",
+    "es": "<h2 style=\"font-size: 24px;\">Aviso Legal</h2>\n    <p style=\" font-size: 16px;\">\n        Todo el contenido de este sitio web está protegido por las leyes de derechos de autor y otra legislación relevante. Ninguna parte del contenido puede ser copiada, reproducida, distribuida, publicada o modificada sin permiso previo por escrito. Todos los derechos reservados.\n    </p>\n    <p style=\" font-size: 16px;\">\n        La información proporcionada en el sitio web es solo para fines de información general y no constituye ningún compromiso o garantía. No se acepta ninguna responsabilidad por la precisión, actualidad e integridad de esta información. No se acepta ninguna responsabilidad por cualquier daño o pérdida que pueda surgir del uso del sitio web.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Los enlaces y contenidos de terceros en el sitio web son solo para fines informativos. No se ofrece ninguna garantía con respecto a la fiabilidad, precisión y actualidad de estos enlaces y contenidos. No se acepta ninguna responsabilidad por las consecuencias que surjan del uso de sitios web de terceros.\n    </p>",
+    "spot": {
+      "tr": "Okyaylar Gıda olarak 50 yıldır, 3 kuşaktır Antep fıstığı üretimi ve ihracatı konusunda uzmanız. Profesyonel ekibimizle, en kaliteli Antep fıstığını dünya pazarlarına sunuyoruz. Üretimden paketlemeye kadar tüm süreçlerde en yüksek kalite standartlarını gözetiyoruz.",
+      "en": "As Okyaylar Food, we have specialized in pistachio production and export for 50 years, across 3 generations.",
+      "ar": "نحن متخصصون في إنتاج وتصدير الفستق منذ 50 عامًا وعلى مدى 3 أجيال.",
+      "de": "Wir sind seit 50 Jahren und 3 Generationen auf Pistazienproduktion und -export spezialisiert.",
+      "es": "Nos especializamos en la producción y exportación de pistachos durante 50 años y 3 generaciones."
+    }
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 8,
+  "bgimg": "z2u2j.jpg",
+  "update": "2026-03-03T10:01:46.517Z",
+  "date": "2026-03-03T10:01:44.781Z",
+  "title": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal warning",
+    "ar": "تحذير قانوني",
+    "de": "Rechtswarnung",
+    "es": "Advertencia legal"
+  }
+}

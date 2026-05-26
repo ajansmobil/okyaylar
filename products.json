@@ -1,0 +1,223 @@
+{
+  "name": "Ürünler",
+  "path": "products",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": " Antep fıstığı ben kuru",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "oe1i7hmkue",
+      "path": "antep-fistigi-ben-kuru",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home",
+      "img": "cakoa.jpg",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı boz çekilmiş",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "e0ckc2krd4",
+      "path": "antep-fistigi-boz-cekilmis",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "img": "r8xf3.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı boz tane",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "v6mk7lvw3q",
+      "path": "antep-fistigi-boz-tane",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 2,
+      "icon": "home",
+      "img": "onvrm.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı duble",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "qudop5pdyk",
+      "path": "antep-fistigi-duble",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 3,
+      "icon": "home",
+      "img": "dgkq7.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı naturel",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ahn0afqif6",
+      "path": "antep-fistigi-naturel",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 4,
+      "icon": "home",
+      "img": "q3o6f.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı neverdi",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "sn5p9v0fmb",
+      "path": "antep-fistigi-neverdi",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 5,
+      "icon": "home",
+      "img": "sbkr3.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": " Antep fıstığı neverdi tane",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "oc9obttx7l",
+      "path": "antep-fistigi-neverdi-tane",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 6,
+      "icon": "home",
+      "img": "z6e2b.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "az99da"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}

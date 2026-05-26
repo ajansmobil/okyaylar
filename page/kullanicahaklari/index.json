@@ -1,0 +1,59 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights",
+    "ar": "حقوق المستخدم",
+    "de": "Benutzerrechte",
+    "es": "Derechos de usuario"
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanici-haklari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz. Haklarınızı kullanmak için bizimle her zaman iletişime geçebilirsiniz.</p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizin korunması ve haklarınızla ilgili detaylı bilgi almak için sitemizde yer alan Gizlilik Politikası'nı inceleyebilirsiniz. Kullanıcı olarak, verilerinizin güvenliği bizim önceliğimizdir ve gerekli teknik ve idari önlemleri almış bulunmaktayız.</p>",
+    "en": "<h2 style=\"font-size: 24px;\">User Rights</h2>\n    <p style=\"font-size: 16px;\">\n        Everyone has the right to request the protection of their personal data. The protection of your personal data is very important to us, and we act within the framework of the Personal Data Protection Law (KVKK) No. 6698 and related legislation. Users have the right to be informed about the purposes for which their data is collected, how it is stored, and with whom it is shared.\n    </p>\n    <p style=\"font-size: 16px;\">\n        You can request to update, correct, delete, and anonymize your personal data. You can also request detailed information about the purpose for which the collected data is used and the processing process, and obtain information about third parties involved in these processes. You can always contact us to exercise your rights.</p>\n    <p style=\"font-size: 16px;\">\n        You can review the Privacy Policy on our website for detailed information about the protection of your personal data and your rights. As a user, the security of your data is our priority, and we have taken the necessary technical and administrative measures.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">حقوق المستخدم</h2>\n    <p style=\"font-size: 16px;\">\n        لكل شخص الحق في طلب حماية بياناته الشخصية. حماية بياناتك الشخصية مهمة جداً بالنسبة لنا، ونحن نعمل في إطار قانون حماية البيانات الشخصية رقم 6698 والتشريعات ذات الصلة. للمستخدمين الحق في معرفة الأغراض التي يتم من أجلها جمع بياناتهم، وكيفية تخزينها، ومع من تتم مشاركتها.\n    </p>\n    <p style=\"font-size: 16px;\">\n        يمكنك طلب تحديث بياناتك الشخصية وتصحيحها وحذفها وإخفاء هويتها. يمكنك أيضاً طلب معلومات مفصلة حول الغرض من استخدام البيانات التي تم جمعها وعملية المعالجة، والحصول على معلومات حول الأطراف الثالثة المشاركة في هذه العمليات. يمكنك دائماً الاتصال بنا لممارسة حقوقك.</p>\n    <p style=\"font-size: 16px;\">\n        يمكنك مراجعة سياسة الخصوصية على موقعنا للحصول على معلومات مفصلة حول حماية بياناتك الشخصية وحقوقك. كمستخدم، أمن بياناتك هو أولويتنا، وقد اتخذنا التدابير التقنية والإدارية اللازمة.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Benutzerrechte</h2>\n    <p style=\"font-size: 16px;\">\n        Jeder hat das Recht, den Schutz seiner persönlichen Daten zu verlangen. Der Schutz Ihrer persönlichen Daten ist für uns sehr wichtig, und wir handeln im Rahmen des Gesetzes zum Schutz personenbezogener Daten (KVKK) Nr. 6698 und der damit verbundenen Gesetzgebung. Benutzer haben das Recht, über die Zwecke, für die ihre Daten erhoben werden, wie sie gespeichert werden und mit wem sie geteilt werden, informiert zu werden.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sie können die Aktualisierung, Korrektur, Löschung und Anonymisierung Ihrer persönlichen Daten beantragen. Sie können auch detaillierte Informationen über den Zweck, für den die gesammelten Daten verwendet werden, und den Verarbeitungsprozess anfordern und Informationen über an diesen Prozessen beteiligte Dritte erhalten. Sie können uns jederzeit kontaktieren, um Ihre Rechte auszuüben.</p>\n    <p style=\"font-size: 16px;\">\n        Sie können die Datenschutzrichtlinie auf unserer Website für detaillierte Informationen über den Schutz Ihrer persönlichen Daten und Ihre Rechte einsehen. Als Benutzer hat die Sicherheit Ihrer Daten für uns Priorität, und wir haben die notwendigen technischen und administrativen Maßnahmen ergriffen.</p>",
+    "es": "<h2 style=\"font-size: 24px;\">Derechos del Usuario</h2>\n    <p style=\"font-size: 16px;\">\n        Todos tienen derecho a solicitar la protección de sus datos personales. La protección de sus datos personales es muy importante para nosotros, y actuamos dentro del marco de la Ley de Protección de Datos Personales (KVKK) No. 6698 y la legislación relacionada. Los usuarios tienen derecho a ser informados sobre los fines para los que se recopilan sus datos, cómo se almacenan y con quién se comparten.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Puede solicitar actualizar, corregir, eliminar y anonimizar sus datos personales. También puede solicitar información detallada sobre el propósito para el que se utilizan los datos recopilados y el proceso de procesamiento, y obtener información sobre terceros involucrados en estos procesos. Puede contactarnos en cualquier momento para ejercer sus derechos.</p>\n    <p style=\"font-size: 16px;\">\n        Puede revisar la Política de Privacidad en nuestro sitio web para obtener información detallada sobre la protección de sus datos personales y sus derechos. Como usuario, la seguridad de sus datos es nuestra prioridad, y hemos tomado las medidas técnicas y administrativas necesarias.</p>",
+    "spot": {
+      "tr": "Okyaylar Gıda olarak 50 yıldır, 3 kuşaktır Antep fıstığı üretimi ve ihracatı konusunda uzmanız. Profesyonel ekibimizle, en kaliteli Antep fıstığını dünya pazarlarına sunuyoruz. Üretimden paketlemeye kadar tüm süreçlerde en yüksek kalite standartlarını gözetiyoruz.",
+      "en": "As Okyaylar Food, we have specialized in pistachio production and export for 50 years, across 3 generations.",
+      "ar": "نحن متخصصون في إنتاج وتصدير الفستق منذ 50 عامًا وعلى مدى 3 أجيال.",
+      "de": "Wir sind seit 50 Jahren und 3 Generationen auf Pistazienproduktion und -export spezialisiert.",
+      "es": "Nos especializamos en la producción y exportación de pistachos durante 50 años y 3 generaciones."
+    }
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 7,
+  "bgimg": "l9wyq.jpg",
+  "update": "2026-03-03T10:01:46.511Z",
+  "date": "2026-03-03T10:01:44.772Z",
+  "title": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights",
+    "ar": "حقوق المستخدم",
+    "de": "Benutzerrechte",
+    "es": "Derechos de usuario"
+  }
+}

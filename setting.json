@@ -1,0 +1,28 @@
+{
+  "order": true,
+  "user": true,
+  "description": {
+    "tr": "Okyaylar Gıda"
+  },
+  "keyword": {
+    "tr": "Okyaylar Gıda"
+  },
+  "category": "Kurumsal",
+  "name": "Okyaylar Gıda",
+  "domain": "okyaylar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": true,
+    "ru": false,
+    "es": true,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.svg"
+}

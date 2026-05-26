@@ -1,0 +1,59 @@
+{
+  "name": {
+    "tr": "Kişisel Veriler",
+    "en": "Personal Data",
+    "ar": "البيانات الشخصية",
+    "de": "Persönliche Daten",
+    "es": "Datos personales"
+  },
+  "status": "play",
+  "id": "kisiselveriler",
+  "path": "kisisel-veriler",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kişisel Veriler</h2>\n    <p style=\"font-size: 16px;\">\n        Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz. Ayrıca, verilerinize erişim talep edebilir, düzeltilmesini, silinmesini veya anonim hale getirilmesini isteyebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizle ilgili herhangi bir sorunuz veya talebiniz olduğunda, Gizlilik Politikamızda belirtilen iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz. Verilerinizin güvenliği ve mahremiyeti bizim için büyük önem taşımaktadır.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Personal Data</h2>\n    <p style=\"font-size: 16px;\">\n        Your personal data is collected only to meet legal requirements, fulfill your requests, and provide you with better service. The security of your personal data is our priority, and we take necessary technical and administrative measures to protect this data within the framework of all relevant legislation, primarily the Personal Data Protection Law (KVKK) No. 6698.\n    </p>\n    <p style=\"font-size: 16px;\">\n        The collected personal data is only accessible by authorized persons and is not shared with third parties without your permission. You have the right to learn for what purposes your personal data is processed, how it is stored, and with whom it is shared. Additionally, you can request access to your data, request its correction, deletion, or anonymization.\n    </p>\n    <p style=\"font-size: 16px;\">\n        If you have any questions or requests regarding your personal data, you can contact us through the communication channels specified in our Privacy Policy. The security and privacy of your data is of great importance to us.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">البيانات الشخصية</h2>\n    <p style=\"font-size: 16px;\">\n        يتم جمع بياناتك الشخصية فقط لتلبية المتطلبات القانونية وتنفيذ طلباتك وتقديم خدمة أفضل لك. أمن بياناتك الشخصية هو أولويتنا، ونتخذ التدابير التقنية والإدارية اللازمة لحماية هذه البيانات في إطار جميع التشريعات ذات الصلة، وفي المقام الأول قانون حماية البيانات الشخصية رقم 6698.\n    </p>\n    <p style=\"font-size: 16px;\">\n        البيانات الشخصية التي يتم جمعها لا يمكن الوصول إليها إلا من قبل الأشخاص المصرح لهم ولا تتم مشاركتها مع أطراف ثالثة دون إذنك. لديك الحق في معرفة الأغراض التي تتم معالجة بياناتك الشخصية من أجلها، وكيفية تخزينها، ومع من تتم مشاركتها. بالإضافة إلى ذلك، يمكنك طلب الوصول إلى بياناتك وطلب تصحيحها أو حذفها أو إخفاء هويتها.\n    </p>\n    <p style=\"font-size: 16px;\">\n        إذا كان لديك أي أسئلة أو طلبات بخصوص بياناتك الشخصية، يمكنك الاتصال بنا من خلال قنوات الاتصال المحددة في سياسة الخصوصية الخاصة بنا. أمن وخصوصية بياناتك ذو أهمية كبيرة بالنسبة لنا.\n    </p>",
+    "de": "<h2 style=\"font-size: 24px;\">Persönliche Daten</h2>\n    <p style=\"font-size: 16px;\">\n        Ihre persönlichen Daten werden nur erfasst, um gesetzliche Anforderungen zu erfüllen, Ihre Anfragen zu bearbeiten und Ihnen einen besseren Service zu bieten. Die Sicherheit Ihrer persönlichen Daten hat für uns Priorität, und wir ergreifen die notwendigen technischen und administrativen Maßnahmen zum Schutz dieser Daten im Rahmen aller relevanten Gesetzgebung, insbesondere des Gesetzes zum Schutz personenbezogener Daten (KVKK) Nr. 6698.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Die erfassten persönlichen Daten sind nur für autorisierte Personen zugänglich und werden ohne Ihre Erlaubnis nicht an Dritte weitergegeben. Sie haben das Recht zu erfahren, zu welchen Zwecken Ihre persönlichen Daten verarbeitet werden, wie sie gespeichert werden und mit wem sie geteilt werden. Zusätzlich können Sie Zugriff auf Ihre Daten anfordern, deren Korrektur, Löschung oder Anonymisierung verlangen.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Wenn Sie Fragen oder Anliegen bezüglich Ihrer persönlichen Daten haben, können Sie uns über die in unserer Datenschutzrichtlinie angegebenen Kommunikationskanäle kontaktieren. Die Sicherheit und Vertraulichkeit Ihrer Daten ist für uns von großer Bedeutung.\n    </p>",
+    "es": "<h2 style=\"font-size: 24px;\">Datos Personales</h2>\n    <p style=\"font-size: 16px;\">\n        Sus datos personales se recopilan únicamente para cumplir con los requisitos legales, satisfacer sus solicitudes y brindarle un mejor servicio. La seguridad de sus datos personales es nuestra prioridad, y tomamos las medidas técnicas y administrativas necesarias para proteger estos datos dentro del marco de toda la legislación relevante, principalmente la Ley de Protección de Datos Personales (KVKK) No. 6698.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Los datos personales recopilados solo son accesibles por personas autorizadas y no se comparten con terceros sin su permiso. Tiene derecho a conocer con qué fines se procesan sus datos personales, cómo se almacenan y con quién se comparten. Además, puede solicitar acceso a sus datos, solicitar su corrección, eliminación o anonimización.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Si tiene alguna pregunta o solicitud sobre sus datos personales, puede contactarnos a través de los canales de comunicación especificados en nuestra Política de Privacidad. La seguridad y privacidad de sus datos es de gran importancia para nosotros.\n    </p>",
+    "spot": {
+      "tr": "Okyaylar Gıda olarak 50 yıldır, 3 kuşaktır Antep fıstığı üretimi ve ihracatı konusunda uzmanız. Profesyonel ekibimizle, en kaliteli Antep fıstığını dünya pazarlarına sunuyoruz. Üretimden paketlemeye kadar tüm süreçlerde en yüksek kalite standartlarını gözetiyoruz.",
+      "en": "As Okyaylar Food, we have specialized in pistachio production and export for 50 years, across 3 generations.",
+      "ar": "نحن متخصصون في إنتاج وتصدير الفستق منذ 50 عامًا وعلى مدى 3 أجيال.",
+      "de": "Wir sind seit 50 Jahren und 3 Generationen auf Pistazienproduktion und -export spezialisiert.",
+      "es": "Nos especializamos en la producción y exportación de pistachos durante 50 años y 3 generaciones."
+    }
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 6,
+  "bgimg": "gktl2.jpg",
+  "update": "2026-03-03T10:01:46.504Z",
+  "date": "2026-03-03T10:01:44.762Z",
+  "title": {
+    "tr": "Kişisel Veriler",
+    "en": "Personal Data",
+    "ar": "البيانات الشخصية",
+    "de": "Persönliche Daten",
+    "es": "Datos personales"
+  }
+}

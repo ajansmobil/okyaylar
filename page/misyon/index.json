@@ -1,0 +1,59 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "مهمة",
+    "de": "Mission",
+    "es": "Misión"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Our Mission</h2>\n    <p style=\" font-size: 16px;\">\n        Our mission is to contribute to a sustainable future through environmentally friendly practices. Our way of working is based on achieving the best results without harming nature. In this context, we take care to increase energy efficiency and use resources in the most efficient way by taking advantage of the innovations offered by technology. In this way, we aim to create a positive impact not only on our customers but also on society and the environment. Our forward-looking goals are to develop more projects in line with this mission and touch more people's lives.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">مهمتنا</h2>\n    <p style=\" font-size: 16px;\">\n        مهمتنا هي المساهمة في مستقبل مستدام من خلال الممارسات الصديقة للبيئة. تعتمد طريقة عملنا على تحقيق أفضل النتائج دون الإضرار بالطبيعة. في هذا السياق، نحرص على زيادة كفاءة الطاقة واستخدام الموارد بأكثر الطرق كفاءة من خلال الاستفادة من الابتكارات التي تقدمها التكنولوجيا. بهذه الطريقة، نهدف إلى إحداث تأثير إيجابي ليس فقط على عملائنا ولكن أيضًا على المجتمع والبيئة. أهدافنا المستقبلية هي تطوير المزيد من المشاريع بما يتماشى مع هذه المهمة ولمس حياة المزيد من الناس.\n    </p>",
+    "de": "<h2 style=\"font-size: 24px;\">Unsere Mission</h2>\n    <p style=\" font-size: 16px;\">\n        Unsere Mission ist es, durch umweltfreundliche Praktiken zu einer nachhaltigen Zukunft beizutragen. Unsere Arbeitsweise basiert darauf, die besten Ergebnisse zu erzielen, ohne der Natur zu schaden. In diesem Zusammenhang achten wir darauf, die Energieeffizienz zu steigern und Ressourcen auf effizienteste Weise zu nutzen, indem wir die von der Technologie gebotenen Innovationen nutzen. Auf diese Weise zielen wir darauf ab, nicht nur für unsere Kunden, sondern auch für die Gesellschaft und die Umwelt eine positive Wirkung zu erzielen. Unsere zukunftsorientierten Ziele sind es, mehr Projekte im Einklang mit dieser Mission zu entwickeln und das Leben von mehr Menschen zu berühren.\n    </p>",
+    "es": "<h2 style=\"font-size: 24px;\">Nuestra Misión</h2>\n    <p style=\" font-size: 16px;\">\n        Nuestra misión es contribuir a un futuro sostenible a través de prácticas respetuosas con el medio ambiente. Nuestra forma de trabajar se basa en lograr los mejores resultados sin dañar la naturaleza. En este contexto, nos preocupamos por aumentar la eficiencia energética y utilizar los recursos de la manera más eficiente aprovechando las innovaciones que ofrece la tecnología. De esta manera, nuestro objetivo es crear un impacto positivo no solo en nuestros clientes, sino también en la sociedad y el medio ambiente. Nuestros objetivos a futuro son desarrollar más proyectos en línea con esta misión y tocar la vida de más personas.\n    </p>",
+    "spot": {
+      "tr": "Okyaylar Gıda olarak 50 yıldır, 3 kuşaktır Antep fıstığı üretimi ve ihracatı konusunda uzmanız. Profesyonel ekibimizle, en kaliteli Antep fıstığını dünya pazarlarına sunuyoruz. Üretimden paketlemeye kadar tüm süreçlerde en yüksek kalite standartlarını gözetiyoruz.",
+      "en": "As Okyaylar Food, we have specialized in pistachio production and export for 50 years, across 3 generations.",
+      "ar": "نحن متخصصون في إنتاج وتصدير الفستق منذ 50 عامًا وعلى مدى 3 أجيال.",
+      "de": "Wir sind seit 50 Jahren und 3 Generationen auf Pistazienproduktion und -export spezialisiert.",
+      "es": "Nos especializamos en la producción y exportación de pistachos durante 50 años y 3 generaciones."
+    }
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 2,
+  "bgimg": "csfej.jpg",
+  "update": "2026-03-03T10:01:46.477Z",
+  "date": "2026-03-03T10:01:44.717Z",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "مهمة",
+    "de": "Mission",
+    "es": "Misión"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Institutional",
+    "ar": "المؤسسية",
+    "de": "Institutionell",
+    "es": "Institucional"
+  },
+  "status": "play",
+  "category": "",
+  "id": "g24b7k8vj0",
+  "externalUrl": "",
+  "path": "kurumsal-tld",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [
+      "zoymex"
+    ],
+    "footer": []
+  },
+  "icon": "home",
+  "update": "2026-03-03T10:01:46.399Z",
+  "date": "2026-03-03T10:01:44.580Z",
+  "title": {
+    "tr": "Kurumsal",
+    "en": "Institutional",
+    "ar": "المؤسسية",
+    "de": "Institutionell",
+    "es": "Institucional"
+  }
+}

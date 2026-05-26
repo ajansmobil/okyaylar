@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Talep Formu",
+    "en": "Request form",
+    "ar": "نموذج الطلب",
+    "de": "Anforderungsformular",
+    "es": "Formulario de solicitud"
+  },
+  "status": "play",
+  "category": "",
+  "id": "tox5c8lhd1",
+  "externalUrl": "",
+  "path": "talep-formu",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 2,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "update": "2026-03-03T10:01:46.413Z",
+  "date": "2026-03-03T10:01:44.600Z",
+  "title": {
+    "tr": "Talep Formu",
+    "en": "Request form",
+    "ar": "نموذج الطلب",
+    "de": "Anforderungsformular",
+    "es": "Formulario de solicitud"
+  }
+}

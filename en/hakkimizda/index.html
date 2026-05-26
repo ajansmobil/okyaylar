@@ -1,78 +1,133 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>About Us</title>
+  <meta property="og:title" content="About Us" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  <meta property="og:title" content="About Us" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://okyaylar.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=jsinr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jsinr" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="canonical" href="https://okyaylar.com/en/hakkimizda/" />
+
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=bqo2s" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=bqo2s" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bqo2s" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Okyaylar Gıda",
+  "description": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg",
+  "image": "https://okyaylar.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Okyaylar Gıda",
+  "url": "https://okyaylar.com",
+  "logo": "https://okyaylar.com/img/logo.svg"
+}
+</script>
   
-<link rel="stylesheet" href="style.css?v=jsinr">
+<link rel="stylesheet" href="style.css?v=bqo2s">
 </head>
 
 <body>
-  <div id="header"><div class="hv19n">
-  <div class="hv19ntitle">
-    <div class="hv19ntitlebody">
-      <div class="hv19ntitlebodytitle">
-        Okyaylar Gıda Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="hv19ntitlebodylang">
+  <div id="header"><div class="gbztj">
+  <div class="gbztjtitle">
+    <div class="gbztjtitlebody">
+      <div class="gbztjtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/de/"><img height="25" src="/src/lang/de.png"  alt="de"></a></li><li><a href="/es/"><img height="25" src="/src/lang/es.png"  alt="es"></a></li>
+          <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/de/hakkimizda/">DE</a></li><li><a href="/es/hakkimizda/">ES</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="hv19nbody">
-    <a href="/en/"><img src="/img/logo.svg?v=jsinr" alt="Okyaylar Gıda Logo" class="hv19nbodylogo" /></a>
+  <div class="gbztjbody">
+    <a href="/en/"
+      ><img
+        src="/img/logo.svg?v=t7jm7"
+        alt="Okyaylar Gıda Logo"
+        class="gbztjbodylogo"
+        loading="lazy"
+    /></a>
+    <button type="button" class="gbztj-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
   </div>
-  <div class="hv19nmenubody">
-    <div class="hv19nmenu">
-      <div class="hv19nmenulistbody">
-        <div class="hv19nmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="gbztj-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="gbztjmenubody">
+    <div class="gbztjmenu" id="menu-2-root">
+      <div class="gbztjmenulistbody">
+        <div class="gbztjmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/kurumsal/">Institutional</a><a href="/en/urunlerimiz/">Our products</a><a href="/en/talep-formu/">Request form</a><a href="/en/iletisim/">Communication</a>
+            <a href="/en/">Home </a><a href="/en/kurumsal-tld/">Institutional</a><a href="/en/urunlerimiz/">Our products</a><a href="/en/talep-formu/">Request form</a><a href="/en/iletisim/">Communication</a>
           </ul>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="gbztjlanguages-mobile">
+        <ul>
+          <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/de/hakkimizda/">DE</a></li><li><a href="/es/hakkimizda/">ES</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  /* Mobil menü aç/kapat: class wrapper (.gbztj) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".gbztj") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("gbztjmenu-open")) {
+        target.classList.remove("gbztjmenu-open");
+      } else {
+        target.classList.add("gbztjmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="dzao2-title f36">
-  <span>About Us</span>
+  <div id="content"><div class="qp3o6-title f36">
+  <h1>About Us</h1>
 </div>
-<div class="dzao2">
-  <div class="dzao2-menu-btn">
+<div class="qp3o6">
+  <div class="qp3o6-menu-btn">
     <span>Menu</span>
     <i class="fas fa-bars"></i>
   </div>
-  <div class="dzao2-menu"><a   href="/en/kurumsal" >Institutional</a><a class="active"  href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalitepolitikamiz" >Our Quality Policy</a><a   href="/en/gizlilikpolitikasi" >Privacy Policy</a><a   href="/en/kisiselveriler" >Personal Data</a><a   href="/en/kullanicahaklari" >User Rights</a><a   href="/en/yasaluyari" >Legal warning</a></div>
-  <div class="dzao2-desc">
-
+  <div class="qp3o6-menu"><a   href="/en/kurumsal" >Institutional</a><a class="active"  href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a   href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanici-haklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal warning</a></div>
+  <div class="qp3o6-desc">
     
-
-
-    <div class="dzao2-body"><p><h2 style="font-size: 24px;">About Us</h2></p>
+    <div class="qp3o6-body"><p><h2 style="font-size: 24px;">About Us</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
 <p>        We are a company that aims to provide the best service in the sector by always keeping customer satisfaction at the forefront. With our innovative and creative approaches, we work to ensure maximum efficiency and effectiveness in every project. Our team consists of professional experts in their fields and is continuously supported by development and training opportunities. In this way, we both meet customer demands in the best way possible and follow the latest developments in the sector to provide solutions that will add value to our customers.</p>
 <p>    </p></p>
@@ -86,49 +141,54 @@
 </div>
 
 <script>
-  document.querySelector('.dzao2-menu-btn').addEventListener('click', function () {
-    document.querySelector('.dzao2-menu').classList.toggle('active');
-    const icon = this.querySelector('i');
-    icon.classList.toggle('fa-bars');
-    icon.classList.toggle('fa-times');
-  });
+  document
+    .querySelector(".qp3o6-menu-btn")
+    .addEventListener("click", function () {
+      document.querySelector(".qp3o6-menu").classList.toggle("active");
+      const icon = this.querySelector("i");
+      icon.classList.toggle("fa-bars");
+      icon.classList.toggle("fa-times");
+    });
 </script>
 
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 </head>
-<div class="sliderxs17j1body">
-  <div class="sliderxs17j1">
-    <div class="sliderxs17j1title">Our documents</div>
-    <div class="s17j1 swiper-container">
+<div class="sliderxz2mpjbody">
+  <div class="sliderxz2mpj">
+    <div class="sliderxz2mpjtitle">Our documents</div>
+    <div class="z2mpj swiper-container">
       <div class="swiper-wrapper"><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/0.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/0.jpg')" />
+        <img src="/img/cezkkg/0.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/0.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/1.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/1.jpg')" />
+        <img src="/img/cezkkg/1.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/1.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/2.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/2.jpg')" />
+        <img src="/img/cezkkg/2.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/2.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/3.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/3.jpg')" />
+        <img src="/img/cezkkg/3.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/3.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/4.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/4.jpg')" />
+        <img src="/img/cezkkg/4.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/4.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/5.jpg" class="modulchilds17j12" onclick="imgfull('/img/cezkkg/5.jpg')" />
+        <img src="/img/cezkkg/5.jpg" class="modulchildz2mpj2" onclick="imgfull('/img/cezkkg/5.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div></div>
-      <div class="swiper-button-next swiper-button-next-s17j1"></div>
-      <div class="swiper-button-prev swiper-button-prev-s17j1"></div>
-      <div class="swiper-pagination-s17j1"></div>
+      <div class="swiper-button-next swiper-button-next-z2mpj"></div>
+      <div class="swiper-button-prev swiper-button-prev-z2mpj"></div>
+      <div class="swiper-pagination-z2mpj"></div>
     </div>
   </div>
 </div>
@@ -139,12 +199,12 @@
     simulateTouch: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination-s17j1",
+      el: ".swiper-pagination-z2mpj",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-s17j1",
-      prevEl: ".swiper-button-prev-s17j1",
+      nextEl: ".swiper-button-next-z2mpj",
+      prevEl: ".swiper-button-prev-z2mpj",
     },
     breakpoints: {
       480: {
@@ -163,21 +223,32 @@
   };
   if ("true" === "true") {
   } else {
-    document.querySelector(".swiper-button-next-s17j1").style.display =
+    document.querySelector(".swiper-button-next-z2mpj").style.display =
       "none";
-    document.querySelector(".swiper-button-prev-s17j1").style.display =
+    document.querySelector(".swiper-button-prev-z2mpj").style.display =
       "none";
   }
-  var swiper = new Swiper(".s17j1", jsonslider);
+  var swiper = new Swiper(".z2mpj", jsonslider);
 </script>
 </div>
-  <div id="footer"><a href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0" target="_blank" class="whatsapp">
+  <div id="footer"><a
+  href="https://api.whatsapp.com/send/?phone=905336108383&text=&app_absent=0"
+  target="_blank"
+  class="whatsapp"
+>
   <div class="whatsappicon">
-    <svg _ngcontent-cty-c90="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon">
-      <path _ngcontent-cty-c90=""
+    <svg
+      _ngcontent-cty-c90=""
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 32 32"
+      class="wa-messenger-svg-whatsapp wh-svg-icon"
+    >
+      <path
+        _ngcontent-cty-c90=""
         d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
-        fill-rule="evenodd"></path>
+        fill-rule="evenodd"
+      ></path>
     </svg>
   </div>
   Contact us
@@ -191,6 +262,15 @@
     <div class="wave" id="wave4"></div>
   </div>
   <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
     <li class="social-icon__item">
       <a class="social-icon__link" href="#">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -213,17 +293,38 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Institutional</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz">Our products</a></li><li class="menu__item"><a class="menu__link" href="/en/talep-formu">Request form</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Communication</a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal-tld">Institutional</a></li><li class="menu__item"><a class="menu__link" href="/en/urunlerimiz">Our products</a></li><li class="menu__item"><a class="menu__link" href="/en/talep-formu">Request form</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Communication</a></li>
   </ul>
   <p>Okyaylar Gıda 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<script type="text/javascript" src="/src/js.js?v=jsinr"></script>
-<script src="/src/cookie.js?v=jsinr"></script>
+
+
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=bqo2s"></script>
+<script defer src="/src/cookie.js?v=bqo2s"></script>
+
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

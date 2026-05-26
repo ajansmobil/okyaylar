@@ -1,0 +1,138 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Institutional",
+        "ar": "المؤسسية",
+        "de": "Institutionell",
+        "es": "Institucional"
+      },
+      "status": "play",
+      "category": "",
+      "id": "g24b7k8vj0",
+      "path": "kurumsal-tld",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "zoymex"
+        ],
+        "footer": []
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ürünlerimiz",
+        "en": "Our products",
+        "ar": "منتجاتنا",
+        "de": "Unsere Produkte",
+        "es": "Nuestros productos"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yfdlhks39q",
+      "path": "urunlerimiz",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "loa5ko"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Talep Formu",
+        "en": "Request form",
+        "ar": "نموذج الطلب",
+        "de": "Anforderungsformular",
+        "es": "Formulario de solicitud"
+      },
+      "status": "play",
+      "category": "",
+      "id": "tox5c8lhd1",
+      "path": "talep-formu",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Communication",
+        "ar": "تواصل",
+        "de": "Kommunikation",
+        "es": "Comunicación"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bwz1fj16ib",
+      "path": "iletisim",
+      "description": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "p3ovzh",
+          "ocsej5"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Communication",
+    "ar": "تواصل",
+    "de": "Kommunikation",
+    "es": "Comunicación"
+  },
+  "status": "play",
+  "category": "",
+  "id": "bwz1fj16ib",
+  "externalUrl": "",
+  "path": "iletisim",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "p3ovzh",
+      "ocsej5"
+    ],
+    "footer": []
+  },
+  "update": "2026-03-03T10:01:46.419Z",
+  "date": "2026-03-03T10:01:44.613Z",
+  "title": {
+    "tr": "İletişim",
+    "en": "Communication",
+    "ar": "تواصل",
+    "de": "Kommunikation",
+    "es": "Comunicación"
+  }
+}

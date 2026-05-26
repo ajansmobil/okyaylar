@@ -1,0 +1,59 @@
+{
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "رؤية",
+    "de": "Vision",
+    "es": "Visión"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Vizyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Vizyonumuz, sektörümüzdeki en güvenilir ve tercih edilen firma olmaktır. Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor. Bizimle çalışan her müşteri, kalite ve güven arayışında olduğu için, onlara her zaman en iyi deneyimi sunmayı amaçlıyoruz.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Our Vision</h2>\n    <p style=\" font-size: 16px;\">\n        Our vision is to be the most reliable and preferred company in our sector. For this, we continuously review, improve, and focus on developing our business processes. Taking into account our customers' feedback, we strive to provide the most suitable solutions for their needs. Our customer-focused approach helps us grow our business further and strengthens our position in the sector. Since every customer working with us is in search of quality and trust, we aim to provide them with the best experience at all times.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">رؤيتنا</h2>\n    <p style=\" font-size: 16px;\">\n        رؤيتنا هي أن نكون الشركة الأكثر موثوقية والمفضلة في قطاعنا. لهذا، نراجع باستمرار عملياتنا التجارية ونحسنها ونركز على تطويرها. مع الأخذ في الاعتبار ملاحظات عملائنا، نسعى جاهدين لتقديم الحلول الأنسب لاحتياجاتهم. يساعدنا نهجنا الذي يركز على العملاء في تنمية أعمالنا بشكل أكبر ويعزز موقعنا في القطاع. نظرًا لأن كل عميل يعمل معنا يبحث عن الجودة والثقة، فإننا نهدف إلى تزويدهم بأفضل تجربة في جميع الأوقات.\n    </p>",
+    "de": "<h2 style=\"font-size: 24px;\">Unsere Vision</h2>\n    <p style=\" font-size: 16px;\">\n        Unsere Vision ist es, das zuverlässigste und bevorzugte Unternehmen in unserer Branche zu sein. Dafür überprüfen, verbessern und fokussieren wir uns kontinuierlich auf die Entwicklung unserer Geschäftsprozesse. Unter Berücksichtigung des Feedbacks unserer Kunden bemühen wir uns, die am besten geeigneten Lösungen für ihre Bedürfnisse anzubieten. Unser kundenorientierter Ansatz hilft uns, unser Geschäft weiter auszubauen und stärkt unsere Position in der Branche. Da jeder Kunde, der mit uns arbeitet, nach Qualität und Vertrauen sucht, zielen wir darauf ab, ihnen jederzeit die beste Erfahrung zu bieten.\n    </p>",
+    "es": "<h2 style=\"font-size: 24px;\">Nuestra Visión</h2>\n    <p style=\" font-size: 16px;\">\n        Nuestra visión es ser la empresa más confiable y preferida en nuestro sector. Para esto, revisamos, mejoramos y nos enfocamos continuamente en desarrollar nuestros procesos comerciales. Teniendo en cuenta los comentarios de nuestros clientes, nos esforzamos por proporcionar las soluciones más adecuadas para sus necesidades. Nuestro enfoque centrado en el cliente nos ayuda a hacer crecer aún más nuestro negocio y fortalece nuestra posición en el sector. Dado que cada cliente que trabaja con nosotros busca calidad y confianza, nuestro objetivo es brindarles la mejor experiencia en todo momento.\n    </p>",
+    "spot": {
+      "tr": "Okyaylar Gıda olarak 50 yıldır, 3 kuşaktır Antep fıstığı üretimi ve ihracatı konusunda uzmanız. Profesyonel ekibimizle, en kaliteli Antep fıstığını dünya pazarlarına sunuyoruz. Üretimden paketlemeye kadar tüm süreçlerde en yüksek kalite standartlarını gözetiyoruz.",
+      "en": "As Okyaylar Food, we have specialized in pistachio production and export for 50 years, across 3 generations.",
+      "ar": "نحن متخصصون في إنتاج وتصدير الفستق منذ 50 عامًا وعلى مدى 3 أجيال.",
+      "de": "Wir sind seit 50 Jahren und 3 Generationen auf Pistazienproduktion und -export spezialisiert.",
+      "es": "Nos especializamos en la producción y exportación de pistachos durante 50 años y 3 generaciones."
+    }
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "description": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "es": ""
+  },
+  "desc": {},
+  "index": 3,
+  "bgimg": "vm60f.jpg",
+  "update": "2026-03-03T10:01:46.484Z",
+  "date": "2026-03-03T10:01:44.731Z",
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "رؤية",
+    "de": "Vision",
+    "es": "Visión"
+  }
+}
