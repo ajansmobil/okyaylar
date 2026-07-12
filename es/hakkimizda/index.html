@@ -4,31 +4,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
-  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
-  <meta http-equiv="Pragma" content="cache" />
-  <meta http-equiv="Expires" content="3600" />
   <title>Sobre nosotros</title>
-  <meta property="og:title" content="Sobre nosotros" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="https://okyaylar.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://okyaylar.com/es/hakkimizda/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Sobre nosotros" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://okyaylar.com/img/icon.png" />
+  <meta property="og:url" content="https://okyaylar.com/es/hakkimizda/" />
+  <meta property="og:site_name" content="Okyaylar Gıda" />
+  <meta property="og:locale" content="es_ES" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sobre nosotros" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://okyaylar.com/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=s18yz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=s18yz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=vt3sq" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=vt3sq" />
+  <link rel="preload" href="/src/cookie.css?v=vt3sq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=s18yz" type="image/png" />
+  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="/src/cookie.css?v=vt3sq" />
+    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
+  </noscript>
+  <link rel="shortcut icon" href="/img/icon.png?v=vt3sq" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,45 +62,51 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=s18yz">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2196f3">
+<link rel="stylesheet" href="style.css?v=vt3sq">
 </head>
 
 <body>
-  <div id="header"><div class="qha06">
-  <div class="qha06title">
-    <div class="qha06titlebody">
-      <div class="qha06titlebodylang">
+  <div id="header"><div class="h0000">
+  <div class="h0000title">
+    <div class="h0000titlebody">
+      <div class="h0000titlebodylang">
         <ul>
           <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/de/hakkimizda/">DE</a></li><li><a href="/es/hakkimizda/">ES</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="qha06body">
-    <a href="/es/"
-      ><img
-        src="/img/logo.svg?v=qtebn"
+  <div class="h0000body">
+    <a href="/es/">
+      <img
+        src="/img/logo.svg?v=k200e"
         alt="Okyaylar Gıda Logo"
-        class="qha06bodylogo"
+        class="h0000bodylogo"
         loading="lazy"
-    /></a>
-    <button type="button" class="qha06-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      />
+    </a>
+    <button type="button" class="h0000-mobile-toggle" onclick="menu2_toggle()" aria-label="">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="qha06-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="qha06menubody">
-    <div class="qha06menu" id="menu-2-root">
-      <div class="qha06menulistbody">
-        <div class="qha06menulist">
+  
+  <div class="h0000-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="h0000menubody">
+    <div class="h0000menu" id="menu-2-root">
+      <button type="button" class="h0000-menu2-drawer-close" onclick="menu2_toggle()" aria-label="">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <div class="h0000menulistbody">
+        <div class="h0000menulist">
           <ul>
-            <a href="/es/">Pagina de inicio </a><a href="/es/kurumsal-tld/">Institucional</a><a href="/es/urunlerimiz/">Nuestros productos</a><a href="/es/talep-formu/">Formulario de solicitud</a><a href="/es/iletisim/">Comunicación</a>
+            <a href="/es/">Pagina de inicio</a><a href="/es/kurumsal-tld/">Institucional</a><a href="/es/urunlerimiz/">Nuestros productos</a><a href="/es/talep-formu/">Formulario de solicitud</a><a href="/es/iletisim/">Comunicación</a>
           </ul>
         </div>
       </div>
-      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="qha06languages-mobile">
+      
+      <div class="h0000languages-mobile">
         <ul>
           <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/de/hakkimizda/">DE</a></li><li><a href="/es/hakkimizda/">ES</a></li>
         </ul>
@@ -98,44 +116,163 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.qha06) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  
+  if (typeof menu2_isMobileLayout === "undefined") {
+    
+    function menu2_isMobileLayout() {
+      return window.innerWidth <= 1024;
+    }
+  }
+  if (typeof menu2_isTouchNav === "undefined") {
+    function menu2_isTouchNav() {
+      return window.innerWidth <= 1024;
+    }
+  }
+  if (typeof menu2_setBodyScroll === "undefined") {
+    function menu2_setBodyScroll(lock) {
+      if (!menu2_isMobileLayout()) {
+        document.body.style.overflow = "";
+        return;
+      }
+      document.body.style.overflow = lock ? "hidden" : "";
+    }
+  }
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".qha06") : null;
+      var wrapper = root.closest ? root.closest(".h0000") : null;
       var target = wrapper || root;
-      if (target.classList.contains("qha06menu-open")) {
-        target.classList.remove("qha06menu-open");
+      if (target.classList.contains("h0000menu-open")) {
+        target.classList.remove("h0000menu-open");
+        menu2_setBodyScroll(false);
       } else {
-        target.classList.add("qha06menu-open");
+        target.classList.add("h0000menu-open");
+        menu2_setBodyScroll(true);
+        menu2_openActiveBranch();
       }
     }
   }
+  if (typeof menu2_closeDrawer === "undefined") {
+    function menu2_closeDrawer() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".h0000") : null;
+      var target = wrapper || root;
+      target.classList.remove("h0000menu-open");
+      menu2_setBodyScroll(false);
+    }
+  }
+  if (typeof menu2_openActiveBranch === "undefined") {
+    function menu2_openActiveBranch() {
+      if (!menu2_isMobileLayout()) {
+        return;
+      }
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var activeWrap = root.querySelector(".h0000menulist-menu.dropdown-content-active-h0000");
+      if (activeWrap) {
+        activeWrap.classList.add("h0000-dropdown-open");
+      }
+    }
+  }
+  if (typeof menu2_setup === "undefined") {
+    function menu2_setup() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var dropdownLinks = root.querySelectorAll(".h0000menulist-menu > a");
+      for (var i = 0; i < dropdownLinks.length; i++) {
+        if (dropdownLinks[i].getAttribute("data-menu2-listener") === "true") {
+          continue;
+        }
+        dropdownLinks[i].setAttribute("data-menu2-listener", "true");
+        dropdownLinks[i].addEventListener("click", function(event) {
+          if (!menu2_isTouchNav()) {
+            return;
+          }
+          var parent = this.parentNode;
+          if (!parent || !parent.querySelector(".dropdown-content-h0000")) {
+            return;
+          }
+          event.preventDefault();
+          var menuRoot = parent.parentNode;
+          var toggled = parent.classList.contains("h0000-dropdown-open");
+          var siblings = menuRoot.querySelectorAll(".h0000menulist-menu");
+          for (var j = 0; j < siblings.length; j++) {
+            siblings[j].classList.remove("h0000-dropdown-open");
+          }
+          if (!toggled) {
+            parent.classList.add("h0000-dropdown-open");
+          }
+        });
+      }
+      var navLinks = root.querySelectorAll(".h0000menulist a[href]");
+      for (var k = 0; k < navLinks.length; k++) {
+        if (navLinks[k].getAttribute("data-menu2-nav-close") === "true") {
+          continue;
+        }
+        navLinks[k].setAttribute("data-menu2-nav-close", "true");
+        navLinks[k].addEventListener("click", function(event) {
+          if (!menu2_isMobileLayout()) {
+            return;
+          }
+          if (event.defaultPrevented) {
+            return;
+          }
+          menu2_closeDrawer();
+        });
+      }
+      menu2_openActiveBranch();
+    }
+    function menu2_resetDropdowns() {
+      if (!menu2_isTouchNav()) {
+        var root = document.getElementById("menu-2-root");
+        if (!root) {
+          return;
+        }
+        var items = root.querySelectorAll(".h0000menulist-menu");
+        for (var i = 0; i < items.length; i++) {
+          items[i].classList.remove("h0000-dropdown-open");
+        }
+      }
+      if (!menu2_isMobileLayout()) {
+        menu2_setBodyScroll(false);
+        menu2_closeDrawer();
+      }
+    }
+    setTimeout(menu2_setup, 150);
+    window.addEventListener("resize", menu2_resetDropdowns);
+  }
 </script>
 </div>
-  <div id="content"><div class="zlrxa-title f36">
+  <div id="content"><div class="b0000-title f36">
   <h1>Sobre nosotros</h1>
 </div>
-<div class="zlrxa">
-  <div class="zlrxa-menu-btn">
+<div class="b0000">
+  <div class="b0000-menu-btn">
     <span>Menú</span>
     <i class="fas fa-bars"></i>
   </div>
-  <div class="zlrxa-menu"><a   href="/es/kurumsal" >Institucional</a><a class="active"  href="/es/hakkimizda" >Sobre nosotros</a><a   href="/es/misyon" >Misión</a><a   href="/es/vizyon" >Visión</a><a   href="/es/kalite-politikamiz" >Nuestra política de calidad</a><a   href="/es/gizlilik-politikasi" >política de privacidad</a><a   href="/es/kisisel-veriler" >Datos personales</a><a   href="/es/kullanici-haklari" >Derechos de usuario</a><a   href="/es/yasal-uyari" >Advertencia legal</a></div>
-  <div class="zlrxa-desc">
+  <div class="b0000-menu"><a  href="/es/kurumsal/" >Institucional</a><a class="active" href="/es/hakkimizda/" >Sobre nosotros</a><a  href="/es/misyon/" >Misión</a><a  href="/es/vizyon/" >Visión</a><a  href="/es/kalite-politikamiz/" >Nuestra política de calidad</a><a  href="/es/gizlilik-politikasi/" >política de privacidad</a><a  href="/es/kisisel-veriler/" >Datos personales</a><a  href="/es/kullanici-haklari/" >Derechos de usuario</a><a  href="/es/yasal-uyari/" >Advertencia legal</a></div>
+  <div class="b0000-desc">
     
-    <div class="zlrxa-body"><p></p></div>
+    <div class="b0000-body"></div>
   </div>
 </div>
 
 <script>
   document
-    .querySelector(".zlrxa-menu-btn")
+    .querySelector(".b0000-menu-btn")
     .addEventListener("click", function () {
-      document.querySelector(".zlrxa-menu").classList.toggle("active");
+      document.querySelector(".b0000-menu").classList.toggle("active");
       const icon = this.querySelector("i");
       icon.classList.toggle("fa-bars");
       icon.classList.toggle("fa-times");
@@ -148,38 +285,38 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   />
 </head>
-<div class="sliderxknv0dbody">
-  <div class="sliderxknv0d">
-    <div class="sliderxknv0dtitle">Nuestros documentos</div>
-    <div class="knv0d swiper-container">
-      <div class="swiper-wrapper"><div href="/img/cezkkg/undefined"  class="swiper-slide">
+<div class="sliderxb0001body">
+  <div class="sliderxb0001">
+    <div class="sliderxb0001title">Nuestros documentos</div>
+    <div class="b0001 swiper-container">
+      <div class="swiper-wrapper"><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/0.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/0.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/0.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/0.jpg')" alt="Resim"  loading="lazy"/>
       </div>
-    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+    </div><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/1.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/1.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/1.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/1.jpg')" alt="Resim"  loading="lazy"/>
       </div>
-    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+    </div><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/2.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/2.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/2.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/2.jpg')" alt="Resim"  loading="lazy"/>
       </div>
-    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+    </div><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/3.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/3.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/3.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/3.jpg')" alt="Resim"  loading="lazy"/>
       </div>
-    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+    </div><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/4.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/4.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/4.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/4.jpg')" alt="Resim"  loading="lazy"/>
       </div>
-    </div><div href="/img/cezkkg/undefined"  class="swiper-slide">
+    </div><div class="swiper-slide">
       <div class="swiper-slide33">
-        <img src="/img/cezkkg/5.jpg" class="modulchildknv0d2" onclick="imgfull('/img/cezkkg/5.jpg')" alt="Resim"  loading="lazy"/>
+        <img src="/img/cezkkg/5.jpg" class="modulchildb00012" onclick="imgfull('/img/cezkkg/5.jpg')" alt="Resim"  loading="lazy"/>
       </div>
     </div></div>
-      <div class="swiper-button-next swiper-button-next-knv0d"></div>
-      <div class="swiper-button-prev swiper-button-prev-knv0d"></div>
-      <div class="swiper-pagination-knv0d"></div>
+      <div class="swiper-button-next swiper-button-next-b0001"></div>
+      <div class="swiper-button-prev swiper-button-prev-b0001"></div>
+      <div class="swiper-pagination-b0001"></div>
     </div>
   </div>
 </div>
@@ -190,12 +327,12 @@
     simulateTouch: true,
     loop: true,
     pagination: {
-      el: ".swiper-pagination-knv0d",
+      el: ".swiper-pagination-b0001",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-knv0d",
-      prevEl: ".swiper-button-prev-knv0d",
+      nextEl: ".swiper-button-next-b0001",
+      prevEl: ".swiper-button-prev-b0001",
     },
     breakpoints: {
       480: {
@@ -214,12 +351,12 @@
   };
   if ("true" === "true") {
   } else {
-    document.querySelector(".swiper-button-next-knv0d").style.display =
+    document.querySelector(".swiper-button-next-b0001").style.display =
       "none";
-    document.querySelector(".swiper-button-prev-knv0d").style.display =
+    document.querySelector(".swiper-button-prev-b0001").style.display =
       "none";
   }
-  var swiper = new Swiper(".knv0d", jsonslider);
+  var swiper = new Swiper(".b0001", jsonslider);
 </script>
 </div>
   <div id="footer"><a
@@ -246,76 +383,70 @@
 </a>
 
 <footer class="footer">
-  <div class="waves">
-    <div class="wave" id="wave1"></div>
-    <div class="wave" id="wave2"></div>
-    <div class="wave" id="wave3"></div>
-    <div class="wave" id="wave4"></div>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+  
+  
+  
+      
+      
+  
+   
+  
+  
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-x"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="/es/">Pagina de inicio</a></li><li class="menu__item"><a class="menu__link" href="/es/kurumsal-tld/">Institucional</a></li><li class="menu__item"><a class="menu__link" href="/es/urunlerimiz/">Nuestros productos</a></li><li class="menu__item"><a class="menu__link" href="/es/talep-formu/">Formulario de solicitud</a></li><li class="menu__item"><a class="menu__link" href="/es/iletisim/">Comunicación</a></li>
+    </ul>
+    <p>Okyaylar Gıda 2025 cognite. &copy;</p>
+  </footer>
   </div>
-  <ul class="social-icon">
 
+  
 
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=vt3sq"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=vt3sq"></script>
+  <script defer src="/src/cookie.js?v=vt3sq"></script>
 
-    
-    
-
- 
-
-
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-x"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </li>
-  </ul>
-  <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/es">Pagina de inicio</a></li><li class="menu__item"><a class="menu__link" href="/es/kurumsal-tld">Institucional</a></li><li class="menu__item"><a class="menu__link" href="/es/urunlerimiz">Nuestros productos</a></li><li class="menu__item"><a class="menu__link" href="/es/talep-formu">Formulario de solicitud</a></li><li class="menu__item"><a class="menu__link" href="/es/iletisim">Comunicación</a></li>
-  </ul>
-  <p>Okyaylar Gıda 2025 cognite. &copy;</p>
-</footer>
-
-</div>
+  <script>
+    setTimeout(function() {
+      var currentPath = window.location.pathname;
+      var rtlLanguages = ['ar', 'he', 'fa'];
+      var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+      var currentLang = langMatch ? langMatch[1] : '';
+      if (rtlLanguages.indexOf(currentLang) !== -1) {
+        document.documentElement.setAttribute('dir', 'rtl');
+      } else {
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+    }, 100);
+  </script>
 </body>
-<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-
-
-
-<script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=s18yz"></script>
-<script defer src="/src/cookie.js?v=s18yz"></script>
-
-<script>
-  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
-  setTimeout(function() {
-    var currentPath = window.location.pathname;
-    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
-    
-    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
-    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
-    var currentLang = langMatch ? langMatch[1] : '';
-    
-    // Eğer RTL dil ise dir="rtl" set et
-    if (rtlLanguages.indexOf(currentLang) !== -1) {
-      document.documentElement.setAttribute('dir', 'rtl');
-    } else {
-      document.documentElement.setAttribute('dir', 'ltr');
-    }
-  }, 100);
-</script>
 
 </html>

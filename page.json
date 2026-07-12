@@ -14,7 +14,15 @@
       "status": "play",
       "category": "",
       "id": "g24b7k8vj0",
+      "externalUrl": "",
       "path": "kurumsal-tld",
+      "keyword": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
       "description": {
         "tr": "",
         "en": "",
@@ -22,6 +30,7 @@
         "de": "",
         "es": ""
       },
+      "desc": {},
       "index": 0,
       "desing": {
         "header": [],
@@ -31,7 +40,16 @@
         "footer": []
       },
       "icon": "home",
-      "desc": {}
+      "update": "2026-03-03T10:01:46.399Z",
+      "date": "2026-03-03T10:01:44.580Z",
+      "title": {
+        "tr": "Kurumsal",
+        "en": "Institutional",
+        "ar": "المؤسسية",
+        "de": "Institutionell",
+        "es": "Institucional"
+      },
+      "slider": []
     },
     {
       "name": {
@@ -102,7 +120,15 @@
       "status": "play",
       "category": "",
       "id": "bwz1fj16ib",
+      "externalUrl": "",
       "path": "iletisim",
+      "keyword": {
+        "tr": "",
+        "en": "",
+        "ar": "",
+        "de": "",
+        "es": ""
+      },
       "description": {
         "tr": "",
         "en": "",
@@ -110,6 +136,7 @@
         "de": "",
         "es": ""
       },
+      "desc": {},
       "index": 3,
       "icon": "home",
       "desing": {
@@ -120,7 +147,16 @@
         ],
         "footer": []
       },
-      "desc": {}
+      "update": "2026-03-03T10:01:46.419Z",
+      "date": "2026-03-03T10:01:44.613Z",
+      "title": {
+        "tr": "İletişim",
+        "en": "Communication",
+        "ar": "تواصل",
+        "de": "Kommunikation",
+        "es": "Comunicación"
+      },
+      "slider": []
     }
   ],
   "index": 0,
