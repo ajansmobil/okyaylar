@@ -1,7 +1,13 @@
 {
   "data": [
     {
-      "name": "Sayfalar",
+      "name": {
+        "tr": "Sayfalar",
+        "en": "Sayfalar",
+        "ar": "Sayfalar",
+        "de": "Sayfalar",
+        "es": "Sayfalar"
+      },
       "path": "page",
       "desc": [],
       "data": [],
@@ -19,7 +25,13 @@
       }
     },
     {
-      "name": "Ürünler",
+      "name": {
+        "tr": "Ürünler",
+        "en": "Ürünler",
+        "ar": "Ürünler",
+        "de": "Ürünler",
+        "es": "Ürünler"
+      },
       "path": "products",
       "desc": [],
       "data": [],
@@ -38,7 +50,13 @@
       }
     },
     {
-      "name": "Kurumsal",
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Kurumsal",
+        "ar": "Kurumsal",
+        "de": "Kurumsal",
+        "es": "Kurumsal"
+      },
       "path": "kurumsal",
       "desc": [],
       "data": [],
