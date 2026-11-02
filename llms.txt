@@ -1,0 +1,36 @@
+# Okyaylar Gıda
+
+> Okyaylar Gıda
+
+Web: https://okyaylar.com/tr/ · Diller: tr, en, ar, de, es (varsayilan: tr)
+
+## Sayfalar
+- [Okyaylar Gıda](https://okyaylar.com/tr/): Okyaylar Gıda
+- [Kurumsal](https://okyaylar.com/tr/kurumsal/): Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları
+- [Kurumsal](https://okyaylar.com/tr/kurumsal-tld/)
+- [Ürünlerimiz](https://okyaylar.com/tr/urunlerimiz/)
+- [Talep Formu](https://okyaylar.com/tr/talep-formu/)
+- [İletişim](https://okyaylar.com/tr/iletisim/)
+- [Kurumsal](https://okyaylar.com/tr/kurumsal/)
+- [Hakkımızda](https://okyaylar.com/tr/hakkimizda/)
+- [Misyon](https://okyaylar.com/tr/misyon/)
+- [Vizyon](https://okyaylar.com/tr/vizyon/)
+- [Kalite Politikamız](https://okyaylar.com/tr/kalite-politikamiz/)
+- [Gizlilik Politikası](https://okyaylar.com/tr/gizlilik-politikasi/)
+- [Kişisel Veriler](https://okyaylar.com/tr/kisisel-veriler/)
+- [Kullanıcı Hakları](https://okyaylar.com/tr/kullanici-haklari/)
+- [Yasal Uyarı](https://okyaylar.com/tr/yasal-uyari/)
+- [Çerez Politikası](https://okyaylar.com/tr/cerez-politikasi/): Bu politika, Okyaylar Gıda tarafından işletilen okyaylar.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+## Urunler
+- [Antep fıstığı ben kuru](https://okyaylar.com/tr/antep-fistigi-ben-kuru/)
+- [Antep fıstığı boz çekilmiş](https://okyaylar.com/tr/antep-fistigi-boz-cekilmis/)
+- [Antep fıstığı boz tane](https://okyaylar.com/tr/antep-fistigi-boz-tane/)
+- [Antep fıstığı duble](https://okyaylar.com/tr/antep-fistigi-duble/)
+- [Antep fıstığı naturel](https://okyaylar.com/tr/antep-fistigi-naturel/)
+- [Antep fıstığı neverdi](https://okyaylar.com/tr/antep-fistigi-neverdi/)
+- [Antep fıstığı neverdi tane](https://okyaylar.com/tr/antep-fistigi-neverdi-tane/)
+
+## Diger
+- [sitemap.xml](https://okyaylar.com/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://okyaylar.com/llms-full.txt): sayfa govdeleri duz metin

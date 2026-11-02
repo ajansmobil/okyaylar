@@ -1,0 +1,47 @@
+{
+  "id": "ugtrarfbs8",
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Corporate",
+    "ar": "الشركة",
+    "de": "Neue Seite",
+    "es": "Nueva página"
+  },
+  "description": {
+    "tr": "Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları",
+    "en": "Information about our company and legal information pages",
+    "ar": "معلومات عن شركتنا وصفحات المعلومات القانونية",
+    "de": "",
+    "es": ""
+  },
+  "keyword": {
+    "tr": "kurumsal, hakkımızda, yasal bilgiler",
+    "en": "corporate, about us, legal information",
+    "ar": "الشركة, من نحن, المعلومات القانونية",
+    "de": "",
+    "es": ""
+  },
+  "path": "kurumsal",
+  "icon": "business",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "bu7pmv"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kurumsal | Okyaylar Gıda",
+    "en": "Corporate | Okyaylar Gıda",
+    "ar": "الشركة | Okyaylar Gıda",
+    "de": "Neue Seite | Okyaylar Gıda",
+    "es": "Nueva página | Okyaylar Gıda"
+  },
+  "date": "2026-11-02T13:03:20.185Z",
+  "update": "2026-11-02T13:03:20.191Z"
+}

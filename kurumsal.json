@@ -28,16 +28,15 @@
         "de": "",
         "es": ""
       },
-      "index": 0,
-      "desc": {}
+      "index": 0
     },
     {
       "name": {
         "tr": "Hakkımızda",
         "en": "About Us",
-        "ar": "معلومات عنا",
-        "de": "Über uns",
-        "es": "Sobre nosotros"
+        "ar": "المؤسسية",
+        "de": "Institutionell",
+        "es": "Institucional"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -56,8 +55,7 @@
         "de": "",
         "es": ""
       },
-      "index": 1,
-      "desc": {}
+      "index": 1
     },
     {
       "name": {
@@ -84,8 +82,7 @@
         "de": "",
         "es": ""
       },
-      "index": 2,
-      "desc": {}
+      "index": 2
     },
     {
       "name": {
@@ -112,8 +109,7 @@
         "de": "",
         "es": ""
       },
-      "index": 3,
-      "desc": {}
+      "index": 3
     },
     {
       "name": {
@@ -140,8 +136,7 @@
         "de": "",
         "es": ""
       },
-      "index": 4,
-      "desc": {}
+      "index": 4
     },
     {
       "name": {
@@ -168,8 +163,7 @@
         "de": "",
         "es": ""
       },
-      "index": 5,
-      "desc": {}
+      "index": 5
     },
     {
       "name": {
@@ -196,8 +190,7 @@
         "de": "",
         "es": ""
       },
-      "index": 6,
-      "desc": {}
+      "index": 6
     },
     {
       "name": {
@@ -224,8 +217,7 @@
         "de": "",
         "es": ""
       },
-      "index": 7,
-      "desc": {}
+      "index": 7
     },
     {
       "name": {
@@ -252,8 +244,36 @@
         "de": "",
         "es": ""
       },
-      "index": 8,
-      "desc": {}
+      "index": 8
+    },
+    {
+      "id": "cerez-politikasi",
+      "name": {
+        "tr": "Çerez Politikası",
+        "en": "Cookie Policy",
+        "ar": "سياسة ملفات تعريف الارتباط",
+        "de": "Cookie-Richtlinie",
+        "es": "Política de Cookies"
+      },
+      "description": {
+        "tr": "Bu politika, Okyaylar Gıda tarafından işletilen okyaylar.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…",
+        "en": "Which cookies are used on this website, for what purposes, and how you can manage your preferences.",
+        "ar": "ما هي ملفات تعريف الارتباط المستخدمة في هذا الموقع، ولأي أغراض، وكيف يمكنكم إدارة تفضيلاتكم.",
+        "de": "Welche Cookies auf dieser Website verwendet werden, zu welchen Zwecken und wie Sie Ihre Einstellungen verwalten können.",
+        "es": "Qué cookies se utilizan en este sitio web, con qué fines y cómo puede gestionar sus preferencias."
+      },
+      "path": "cerez-politikasi",
+      "icon": "cookie",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jj672s"
+        ],
+        "footer": []
+      },
+      "index": 9
     }
   ],
   "index": 2,
